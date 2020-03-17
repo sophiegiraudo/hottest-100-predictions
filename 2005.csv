@@ -1,0 +1,91 @@
+Name	Album	Rank	Artist	Track_id	Duration	Explicit	Popularity	Danceability	Energy	Key	Loudness	Mode	Speechiness	Acousticness	Instrumentalness	Valence	Liveness	Tempo	Time_Signature
+Wish You Well	Tea & Sympathy	100	Bernard Fanning	1VPqqYREN10iX8CSvJYyf7	151133	False	33	0.73	0.717	2	-3.983	1	0.0873	0.177	3.85e-06	0.703	0.0628	122.713	4
+Catch My Disease	Awake Is The New Sleep	99	Ben Lee	6cmgXQozMvu3LJgT9Z8HPC	253653	False	0	0.766	0.684	11	-6.28	1	0.0324	0.0199	2.15e-05	0.929	0.173	115.983	4
+Feel Good Inc	Demon Days	98	Gorillaz	0d28khcov6AiegSCpG5TuT	222640	False	79	0.818	0.705	6	-6.679	1	0.177	0.00836	0.00233	0.772	0.613	138.559	4
+Best Of You	In Your Honour	97	Foo Fighters	35eI7JN7aJ9lkCUgcPWn4h	255626	False	1	0.372	0.943	1	-5.049	0	0.0759	0.000678	0.000123	0.389	0.171	129.8	4
+DARE	Demon Days	96	Gorillaz	4Hff1IjRbLGeLgFgxvHflk	244999	False	71	0.76	0.891	11	-5.852	0	0.0372	0.0226	0.0868	0.966	0.298	120.265	4
+Mind's Eye	Wolfmother	95	Wolfmother	7DX2skZyd0JRIiIhsSYYXn	294026	False	0	0.17	0.613	9	-4.924	0	0.0375	0.223	0.00121	0.0399	0.0958	63.655	4
+My Doorbell	Get Behind Me Satan	94	The White Stripes	7edcGJmrKfDKEL3nSJtPWA	241840	False	4	0.611	0.659	8	-9.839	1	0.0342	0.284	0.00625	0.805	0.101	97.131	4
+O Yeah	End Of Fashion	93	End Of Fashion	3NnHbRoChijsTVSP8kQTp2	179768	False	3	0.39	0.878	4	-5.157	1	0.0383	0.0104	0	0.509	0.379	159.94	4
+Joker And The Thief	Wolfmother	92	Wolfmother	4juq76lIar8YWOLpYMXUAG	280466	False	13	0.264	0.78	0	-2.741	1	0.0517	0.0452	0.0222	0.456	0.376	155.376	4
+Do You Want To	You Could Have It So Much Better	91	Franz Ferdinand	09TpJe9jnom4mB2DDhZKkB	215000	False	3	0.414	0.939	0	-2.887	1	0.047	0.0884	0.000612	0.748	0.81	123.091	4
+Computer Camp Love	Datarock Datarock	89	Datarock	7ACmrJKGFL5bC8k7zKInjb	187960	False	0	0.722	0.828	11	-9.113	0	0.0396	0.00927	0.0518	0.519	0.174	130.053	4
+Gold Digger	Late Registration	88	Kanye West, Jamie Foxx	5XJJdNPkwmbUwE79gv0NxK	207626	True	19	0.646	0.696	1	-5.572	0	0.342	0.0192	0	0.625	0.0762	92.88	4
+Songbird	Tea & Sympathy	87	Bernard Fanning	4SxNSszQR7aK8WlRnemoYj	156280	False	32	0.58	0.776	6	-6.965	0	0.0273	0.102	0.000213	0.866	0.183	80.54	4
+Flame Trees	Flame Trees	86	Sarah Blasko	11gUj7XhtDrr2olapChqtJ	323760	False	0	0.492	0.248	2	-10.475	1	0.0269	0.889	0.00749	0.119	0.112	94.918	4
+Apple Tree	Wolfmother	85	Wolfmother	0Tkfdi8Lqto4Rx0vRYsqTb	210240	False	0	0.295	0.829	10	-3.173	0	0.0686	0.000171	0.00241	0.53	0.662	120.218	4
+Blue Orchid	Get Behind Me Satan	84	The White Stripes	1PCA097woCMSDvZPUVeRI7	158280	False	9	0.484	0.641	10	-8.44	0	0.3	0.117	1.05e-05	0.688	0.324	151.233	4
+I Was Only 19	The Sun Never Sets	83	The Herd, John Schumann	5gm4ATqdfADFkDuqvHdl6k	294786	False	46	0.599	0.802	9	-7.602	1	0.197	0.071	0	0.241	0.0893	94.113	4
+Middle of the Hill	Feeding the Wolves	82	Josh Pyke	3oUFYp2pM0AQiGoK11IEWf	147226	False	23	0.765	0.48	7	-6.229	1	0.0463	0.857	0	0.815	0.106	146.011	4
+DOA	In Your Honour	81	Foo Fighters	03AIRTc1MIGDa4Lpnp0pqP	252106	False	0	0.467	0.915	2	-4.303	1	0.0721	0.000154	0.000846	0.691	0.0701	145.539	4
+Hurricane	Addicted Romantic	80	Faker	3PjKoeIjpJVTN92y69NvD2	199666	False	0	0.407	0.906	1	-2.073	0	0.0818	0.000344	0.0361	0.589	0.367	95.77	4
+Two More Years	Silent Alarm	78	Bloc Party	5LET9NdQfxJG5jabV8muL0	266680	False	7	0.584	0.872	10	-5.215	1	0.0465	0.000254	0.00457	0.844	0.0576	155.047	4
+Foxtrot Uniform Charlie Kilo	Show Us Your Hits (International Version)	77	Bloodhound Gang	6iOxDJbDno1yidaFpc6xOY	171653	False	1	0.774	0.553	10	-6.76	0	0.0376	0.00385	0.0528	0.78	0.0669	137.012	4
+The Car Song	Two Shoes (Blank)	76	The Cat Empire	02KkLk03Oj9EC49700vovn	259000	False	0	0.516	0.844	7	-4.378	0	0.0475	0.161	0	0.736	0.323	150.133	4
+Fix You	X & Y	75	Coldplay	7LVHVU3tWfcxj5aiPFEW4Q	295533	False	80	0.209	0.418	3	-8.74	1	0.0338	0.163	0.00195	0.123	0.113	138.265	4
+B.Y.O.B.	Mezmerize	74	System Of A Down	0EYOdF5FCkgOJJla8DI2Md	255466	True	74	0.556	0.981	1	-2.688	0	0.128	0.00662	0	0.716	0.218	101.423	4
+Fast Girl	Are You Involved?	72	Gyroscope	1fHHQwCitLCU3rmdabN2SL	198160	False	29	0.622	0.762	4	-5.442	0	0.0324	0.000653	0	0.667	0.228	120.212	4
+The Special Two	The Sound Of White (Deluxe)	70	Missy Higgins	6VM6TRyg5S8rgWjCMDPgHv	266379	False	0	0.573	0.378	2	-7.96	1	0.0311	0.744	0	0.337	0.116	140.066	4
+My Enemy	The New Normal	69	Cog	7I271a78G44xDoTLsLHTUd	213626	False	18	0.507	0.902	7	-3.715	0	0.037	0.00362	0.00224	0.501	0.358	148.411	4
+Phoenix	Phoenix	68	The Butterfly Effect	1RbES4OK4JekJbvKHtVyou	244453	False	0	0.392	0.808	7	-5.222	0	0.0646	0.00559	0	0.608	0.0619	156.442	4
+I Predict a Riot	The Coolest Songs in the World! Vol. 7	67	Kaiser Chiefs	4nBAFFXX2NPDuT4gxQSWmh	231773	False	0	0.385	0.977	8	-3.681	1	0.0817	0.0225	0	0.402	0.127	158.865	4
+Girl	Guero	66	Beck	3DgNj1aYbSRVoVO8yX7DRt	209893	False	50	0.681	0.662	8	-6.526	1	0.115	0.0543	0.00512	0.85	0.206	149.485	4
+Speed of Sound	X & Y	65	Coldplay	7clUVcSOtkNWa58Gw5RfD4	287906	False	68	0.523	0.898	11	-6.765	0	0.0567	0.00491	0.0345	0.355	0.0746	123.085	4
+Dimension	Wolfmother	64	Wolfmother	7vonqPUq6XM98ByB1LV264	261426	False	1	0.484	0.749	11	-4.17	0	0.0327	0.0186	0.0099	0.613	0.436	142.165	4
+Sly	Two Shoes	63	The Cat Empire	6rkFolFYA47tVg7x7FxxNj	234533	False	0	0.527	0.779	9	-4.529	1	0.077	0.0154	0	0.823	0.334	169.393	4
+Colossal	Wolfmother	62	Wolfmother	4Xx92jCdrTBTiCr4rwwkN3	304600	False	1	0.254	0.836	7	-3.544	1	0.0463	0.025	6.22e-06	0.554	0.11	157.656	4
+Helicopter	Silent Alarm	61	Bloc Party	72aCha2Meq7txnk451hz7k	220173	False	54	0.466	0.954	11	-3.633	0	0.132	0.00015	0.00343	0.396	0.387	170.058	4
+Dirty Harry	Demon Days	60	Gorillaz	2bfGNzdiRa1jXZRdfssSzR	230426	False	64	0.625	0.877	10	-7.176	0	0.162	0.0315	0.0811	0.865	0.672	192.296	4
+Sweet As Sugar	Best In Show	59	Grinspoon	3tNEy8dPNhJrvEc60Jv0GK	194573	False	24	0.37	0.982	6	-3.378	0	0.0969	0.000158	0.0349	0.555	0.255	160.095	4
+Autumn Flow	3-2-1	58	Lior	23OmF1nlVTZVVKVunzkmK3	254520	False	3	0.58	0.439	10	-8.822	1	0.0396	0.251	6.69e-05	0.392	0.132	119.095	4
+Sunny Road	Fisherman's Woman	57	Emilíana Torrini	5dcfP0DYH5SDeizgbHZop6	184533	False	49	0.611	0.148	4	-15.944	0	0.039	0.919	0.00266	0.335	0.125	83.78	4
+Positive Tension	Silent Alarm	56	Bloc Party	5grFijUzzAUQo7Nj7vTWTA	235440	False	37	0.638	0.799	5	-5.742	0	0.136	0.00265	0.00135	0.659	0.183	160.163	4
+Juicebox	First Impressions Of Earth	55	The Strokes	5jZM2ut63rT6MGCW3omsaK	194573	False	52	0.462	0.981	2	-2.371	0	0.127	0.00166	0.00894	0.547	0.0856	154.995	4
+Stuff And Nonsense	Where I Stood (I Tunes Exclusive)	54	Missy Higgins	2zXaCr2dzUlr0WJ4rAehLY	213653	False	10	0.368	0.221	6	-10.806	1	0.0327	0.902	1.87e-06	0.248	0.104	204.617	4
+An Honest Mistake	Time Won't Let Me Go Hit Pack	53	The Bravery	6tmNPE30bTq112P8H9JOo5	219320	False	5	0.475	0.888	2	-4.142	0	0.0293	4.38e-06	0.513	0.619	0.168	140.024	4
+What's On Your Radio	State Of Emergency	52	The Living End	1cM77tTmK9ZjyPz79L0K7x	184346	False	0	0.282	0.897	4	-4.475	0	0.0692	0.00102	5.85e-05	0.538	0.318	137.24	4
+I Bet You Look Good On The Dancefloor	Whatever People Say I Am, That's What I'm Not	51	Arctic Monkeys	0S7zL7ae0KpOSPKeFQpHo8	173680	False	12	0.535	0.948	6	-4.19	0	0.0356	0.00225	0	0.778	0.376	103.183	4
+Be Yourself	Out of Exile	50	Audioslave	7r9ZTgy31yObGZE6ZYDlQg	278973	False	6	0.423	0.845	11	-3.509	0	0.0559	0.143	5.07e-06	0.317	0.213	116.602	4
+We're All In This Together	Awake Is The New Sleep	48	Ben Lee	3CFB9s2w9AHCL2wyVvJZfX	279186	False	0	0.778	0.575	1	-8.913	0	0.029	0.146	5.1e-05	0.642	0.708	102.007	4
+Two Shoes - International	Two Shoes (Online Partner e-Release)	47	The Cat Empire	5ICAKOCNuhc21YZq55TY0E	316586	False	0	0.625	0.677	2	-6.435	0	0.0354	0.208	6.98e-06	0.692	0.113	113.297	4
+Landed	Songs For Silverman	46	Ben Folds	4mrVwQQiv8AkXoJWehbWsK	266773	False	42	0.413	0.684	10	-6.099	1	0.0291	0.0557	4.76e-05	0.306	0.244	83.199	4
+It'5!	In Case We Die	45	Architecture In Helsinki	3Mg5N9j3zo7AQ8ilmcOJg2	127386	False	22	0.748	0.578	7	-6.75	1	0.0968	0.598	3.03e-05	0.692	0.348	126.39	4
+Radio/Video	Mezmerize	44	System Of A Down	41pOIT2t1rvr2Trg1HQChZ	249226	False	66	0.361	0.921	6	-2.468	0	0.0717	0.173	6.95e-06	0.466	0.358	139.259	4
+Little Sister	Lullabies To Paralyze (International Version)	43	Queens of the Stone Age	5wHNRDvNDTvAvNUllq5v7R	174026	False	9	0.361	0.962	1	-2.928	1	0.0659	0.0103	0.00103	0.927	0.294	161.292	4
+Bloody Mother Fucking Asshole	Martha Wainwright (Explicit Version)	42	Martha Wainwright	2NVDO608nh5dExZy0Q8WVm	194040	True	22	0.371	0.423	2	-5.491	1	0.0384	0.432	0	0.24	0.136	176.471	3
+All The Money or The Simple Life Honey	Odditorium Or Warlords Of Mars	41	The Dandy Warhols	1LN0UleTPDL6wCvZ7ly19v	269173	False	23	0.607	0.867	4	-5.308	1	0.0304	0.0665	6.93e-05	0.63	0.0972	127.788	4
+Jesus of Suburbia	American Idiot	40	Green Day	58KPPL1AdLHMvR2O2PZejr	548253	True	63	0.3	0.929	1	-3.214	1	0.0636	0.000259	2.26e-06	0.59	0.329	147.116	4
+Beware Wolf	Are You Involved?	39	Gyroscope	2QwNEksQgbeQvVcLATZ6xw	203933	False	22	0.676	0.782	11	-5.813	1	0.037	0.00158	0	0.803	0.133	123.188	4
+Sitting, Waiting, Wishing	In Between Dreams	37	Jack Johnson	1dnXuEuApvuVqQCn0v9McL	183720	False	67	0.766	0.547	0	-7.25	1	0.0264	0.227	1.5e-05	0.556	0.104	105.01	4
+Always Worth It	The Overture & the Underscore (AU Edition)	36	Sarah Blasko	1DD128nKgJotoyEECIJ2Ya	227013	False	15	0.464	0.702	1	-5.979	0	0.026	0.00438	0.000195	0.356	0.261	135.056	4
+Gabrielle	Shinola Vol.1	35	Ween	5EDUxIRzcxLBodgWlkh8wJ	209466	False	0	0.414	0.918	11	-3.313	0	0.123	0.0157	6.7e-05	0.599	0.0669	79.406	4
+The Denial Twist	Get Behind Me Satan	34	The White Stripes	2TFdgTIV1S5xFVk8uf9DWn	155760	False	1	0.566	0.763	7	-7.849	0	0.131	0.319	0	0.727	0.117	90.967	4
+…And We'll Dance On The Ashes Of What's Left	We're Already Gone	33	The Beautiful Girls	6ggBGIXwzZxkjcNWfRr3vI	237733	False	0	0.585	0.424	9	-11.235	0	0.0383	0.123	3.23e-06	0.837	0.101	176.143	4
+This Year	The Sunset Tree	31	The Mountain Goats	2M1Qc1mGSI1IYtmJzQtfPq	232893	False	54	0.699	0.719	9	-9.481	1	0.0312	0.118	0.00259	0.831	0.0913	138.958	4
+Run	The New Normal	30	Cog	5ZeNbqp41JVWUoMyhuY1az	308400	False	16	0.424	0.873	10	-6.556	0	0.0684	0.0448	0.122	0.279	0.577	148.392	4
+Better Together	In Between Dreams	28	Jack Johnson	2iXdwVdzA0KrI2Q0iZNJbX	207680	False	75	0.871	0.346	5	-9.481	1	0.0522	0.298	9.24e-06	0.659	0.108	110.049	4
+The Sound of White	The Sound of White	27	Missy Higgins	1V5wHjBXXVLdsgdPtRnjwV	291720	False	0	0.534	0.382	7	-7.88	1	0.0274	0.515	0	0.306	0.0972	73.859	4
+Que' Onda Guero	Guero	26	Beck	5txrJzhPIrRqfvtnvZGcbX	209306	False	47	0.806	0.588	1	-7.791	1	0.0733	0.317	0.0128	0.9	0.383	95.82	4
+Lonely Day	Hypnotize	25	System Of A Down	1VNWaY3uNfoeWqb5U8x2QX	167906	False	71	0.47	0.796	8	-3.277	0	0.0336	0.362	1.11e-06	0.215	0.133	113.108	3
+First Day Of My Life	I'm Wide Awake, It's Morning	24	Bright Eyes	5OiaAaIMYlCZONyDBxqk4G	188800	False	69	0.468	0.201	4	-17.024	1	0.0388	0.915	8.28e-05	0.383	0.0952	94.422	4
+The Fighter	Always Forever Now	23	After The Fall	7ooEob0U7YEEMln0rQdtGc	235706	False	19	0.597	0.855	11	-3.331	0	0.032	7.67e-05	0	0.37	0.0706	119.92	4
+F**k Forever	F**k Forever	22	Babyshambles	1PotAUCOIziBcJneMBiy3F	284413	False	15	0.322	0.915	11	-3.397	0	0.0663	0.013	0.000932	0.386	0.0873	113.155	4
+Believe	Brotherhood	21	The Chemical Brothers	7MWg3kJhV6hHfEIL1WFSOP	366773	False	30	0.699	0.582	7	-5.21	1	0.0516	0.000822	0.0625	0.594	0.0867	131.982	4
+Let's Take The Long Way Home	We're Already Gone	20	The Beautiful Girls	7KGFAgXlMnkQcbm91vcE7t	185626	False	0	0.855	0.194	5	-15.249	1	0.0518	0.687	0.000341	0.8	0.156	116.992	4
+Smoke It	Odditorium Or Warlords Of Mars	19	The Dandy Warhols	3blzH5d90X7wdXxUcd4vHA	246400	False	23	0.453	0.939	0	-4.056	1	0.0386	9.82e-06	0.131	0.64	0.14	124.312	4
+Filthy/Gorgeous	Scissor Sisters	18	Scissor Sisters	7iKqm5tT3C2lFtheKDpdF7	227600	False	32	0.75	0.74	9	-6.335	0	0.0376	0.00744	0.00125	0.692	0.445	132.027	4
+White Unicorn	Wolfmother	17	Wolfmother	7xo1Kn00qY08vwX8FMnb62	304133	False	0	0.347	0.773	7	-4.46	1	0.0361	0.000657	0.000862	0.367	0.0968	108.724	4
+Into The Dark	Awake Is The New Sleep	15	Ben Lee	6cU8661u4kDYgl3VkkFFY1	166893	False	0	0.781	0.714	7	-7.059	1	0.028	0.0931	1.86e-06	0.927	0.11	126.011	4
+We Can't Hear You	The Sun Never Sets	14	The Herd	565L2dLS63i2J5cAl1DDcX	257600	False	26	0.87	0.633	9	-6.9	0	0.265	0.0751	2.63e-06	0.759	0.374	92.004	4
+Like Eating Glass	Silent Alarm	13	Bloc Party	2x7cxHkkKF4afADOkrxe6J	261986	False	41	0.398	0.982	6	-4.859	0	0.163	0.000373	0.000242	0.22	0.107	160.26	4
+Bastard	Songs For Silverman	12	Ben Folds	5VuMpavvLB54yQC5mJt83P	323026	True	31	0.431	0.641	7	-6.978	1	0.0285	0.114	0.00616	0.452	0.103	138.542	4
+Walk Away	You Could Have It So Much Better	11	Franz Ferdinand	2V6n1Pq26T0Rdp0jgy77xp	216333	False	3	0.587	0.834	2	-4.514	1	0.0348	0.141	1.2e-06	0.539	0.194	124.103	4
+Heartstopper	Fisherman's Woman	10	Emilíana Torrini	2hk6GaLo88w6beE2HQD2dA	182466	False	29	0.596	0.229	0	-13.288	1	0.0413	0.474	0	0.171	0.103	111.744	4
+Messages	Food In The Belly	9	Xavier Rudd	3r4Olq80qFttuEGonWqYpb	242426	False	39	0.473	0.548	1	-12.621	1	0.178	0.839	0.0228	0.463	0.105	125.503	4
+The Fallen	You Could Have It So Much Better	8	Franz Ferdinand	3oD2Tk7DQavXaSh4bCTjJY	222400	False	0	0.498	0.981	0	-2.354	1	0.0922	0.00822	0.00106	0.463	0.0714	113.096	4
+Face Without a Name	United Paper People	6	Kisschasy	3YiiV2PBM0x2eomuNPCebo	186573	False	0	0.515	0.743	7	-4.828	1	0.0368	0.0118	0	0.896	0.0759	96.16	4
+Six Months In A Leaky Boat	Come On Come On	5	Little Birdy	3PhXUZFdT5CtkbZ8ja3JOP	233186	False	24	0.41	0.666	4	-6.286	1	0.0339	0.107	2.47e-06	0.114	0.0761	129.829	4
+Themata	Set Fire To The Hive	4	Karnivool	5u4n1CQe3fcQoLdJom09ly	346760	False	40	0.528	0.926	4	-5.29	0	0.0886	4.3e-05	0.000462	0.242	0.0788	93.988	4
+Why Do You Love Me	Absolute Garbage	3	Garbage	51SJ4BewH8yFeWML1uKLww	232066	True	22	0.472	0.872	7	-1.923	1	0.0425	0.000442	3.01e-06	0.463	0.353	159.986	4
+Evie Pt. 1 (Let Your Hair Hang Down)	Easy Fever A Tribute to the Easybeats and Stevie Wright	2	The Wrights	6GfinRZoxo8BrLIUPyvDIz	228466	False	0	0.445	0.955	9	-2.614	1	0.0664	0.00758	0	0.647	0.755	88.955	4
+Party Started - International	Two Shoes (Blank)	1	The Cat Empire	3yErlza45VkbYgHZWgVs5m	227000	False	0	0.837	0.673	8	-7.888	1	0.0437	0.259	0	0.75	0.0548	104.576	4

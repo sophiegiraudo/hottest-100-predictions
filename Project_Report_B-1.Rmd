@@ -1,0 +1,1326 @@
+---
+title: "Project_Report_B-1"
+output:
+  word_document: default
+  html_notebook: default
+---
+
+.	Song: Song name
+.	Position: Position in hottest 100 for it's given year, between 1 and 100
+.	Year: Year the song featured in the hottest 100
+.	Country of Origin: Country of origin of the artist(s)
+.	Artist: The artist(s) credited to the song
+.	Album: The album the song is from
+.	Duration: The duration of the track in milliseconds
+.	Explicit: Boolean, TRUE (has explicit lyrics) or FALSE (doesn't have explicit lyrics)
+.	Popularity: Between 0 (least popular) and 100 (most popular). Based on total number of plays and how recent the plays are.
+.	Danceability: How suitable a track is for dancing based on a combination of musical elements including temp, rhythm stability, beat strength and overall regularity, from 0.0 (least danceable) to 1.0 (most danceable).
+.	Energy: A perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. From 0.0 to 1.0 (most energetic) Loudness: Overall loudness of a track in decibels (dB). Values typically between -60 and 0.
+.	Mode: Indicated modality. Major represented by 1 and minor is 0.
+.	Speechiness: Presence of spoken words in a track. Between 0.0 and 1.0. The more exclusively speech like the closer to 1.0. above 0.66 probably made entirely of spoken words. Between 0.33 and 0.66 describe tracks that contain both music and speech. Below 0.33 likely represents music and similar.
+.	Acousticness: A confidence measure of whether a track is acoustic, from 0.0 to 1.0 (high confidence track is acoustic)
+.	Instrumentalness: Predicts whether a track contains no vocals. "ooh" and "aah" sounds are treated as instrumental. from 0.0 to 1.0. The close the 1.0 the greater the likelihood the track contains no vocals. Values above 0.5 are intended to represent instrumental tracks
+.	Valence: between 0.0 and 1.0. Describes musical positiveness conveyed. High valence tracks sound more positive.
+.	Liveness: Detects the presence of an audience in the recording. 0.0 to 1.0.A value above 0.8 provides strong likelihood the track is live
+.	Tempo: In BPM (beats per minute)
+.	Time_Signature: Estimated overall time signature. How many beats per bar
+.	Key: The key the track is in. Integers map to pitches using standard Pitch Class Notation. 0 = C, 1 = C#/Db, 2 = D
+
+
+```{r}
+# *XYEAR* is defined as csv of all Spotify data
+
+# *ranks_YEAR* is a csv of song name, position, country of origin and year of song
+
+library(readr)
+## Warning: package 'readr' was built under R version 3.5.3
+library(plyr)
+## Warning: package 'plyr' was built under R version 3.5.3
+all
+## function (..., na.rm = FALSE)  .Primitive("all")
+all_ranks <- read_csv("all_ranks.csv", col_types = cols(Artist = col_skip()))
+X1993 <- read_delim("1993.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X1994 <- read_delim("1994.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X1995 <- read_delim("1995.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X1996 <- read_delim("1996.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X1997 <- read_delim("1997.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X1998 <- read_delim("1998.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X1999 <- read_delim("1999.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2000 <- read_delim("2000.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2001 <- read_delim("2001.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2002 <- read_delim("2002.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2003 <- read_delim("2003.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2004 <- read_delim("2004.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2005 <- read_delim("2005.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2006 <- read_delim("2006.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2007 <- read_delim("2007.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2008 <- read_delim("2008.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2009 <- read_delim("2009.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2010 <- read_delim("2010.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2011 <- read_delim("2011.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2012 <- read_delim("2012.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2013 <- read_delim("2013.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2014 <- read_delim("2014.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2015 <- read_delim("2015.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2016 <- read_delim("2016.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2017 <- read_delim("2017.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X2018 <- read_delim("2018.csv", "\t", escape_double = FALSE, 
+     col_types = cols(Rank = col_skip(), Track_id = col_skip()), 
+     trim_ws = TRUE)
+X1 <- merge(X1993, X1994, all = TRUE)
+X2 <- merge(X1995, X1996, all = TRUE)
+X3 <- merge(X1997, X1998, all = TRUE)
+X4 <- merge(X1999, X2000, all = TRUE)
+X5 <- merge(X2001, X2002, all = TRUE)
+X6 <- merge(X2003, X2004, all = TRUE)
+X7 <- merge(X2005, X2006, all = TRUE)
+X8 <- merge(X2007, X2008, all = TRUE)
+X9 <- merge(X2009, X2010, all = TRUE)
+X10 <- merge(X2011, X2012, all = TRUE)
+X11 <- merge(X2013, X2014, all = TRUE)
+X12 <- merge(X2015, X2016, all = TRUE)
+X13 <- merge(X2017, X2018, all = TRUE)
+
+
+X14 <- merge(X1, X2, all = TRUE)
+X15 <- merge(X3, X4, all = TRUE)
+X16 <- merge(X5, X6, all = TRUE)
+X17 <- merge(X7, X8, all = TRUE)
+X18 <- merge(X9, X10, all = TRUE)
+X19 <- merge(X11, X12, all = TRUE)
+
+X20 <- merge(X14, X15, all = TRUE)
+X21 <- merge(X16, X17, all = TRUE)
+X22 <- merge(X18, X19, all = TRUE)
+
+X23 <- merge(X20, X21, all = TRUE)
+X24 <- merge(X22, X13, all = TRUE)
+
+allspot <- merge(X23, X24, all = TRUE)
+all <- merge(all_ranks, allspot, by.x = "Song", by.y = "Name")
+
+all1993 <- subset(all, subset = (all$Year == "1993"))
+all1994 <- subset(all, subset = (all$Year == "1994"))
+all1995 <- subset(all, subset = (all$Year == "1995"))
+all1996 <- subset(all, subset = (all$Year == "1996"))
+all1997 <- subset(all, subset = (all$Year == "1997"))
+all1998 <- subset(all, subset = (all$Year == "1998"))
+all1999 <- subset(all, subset = (all$Year == "1999"))
+all2000 <- subset(all, subset = (all$Year == "2000"))
+all2001 <- subset(all, subset = (all$Year == "2001"))
+all2002 <- subset(all, subset = (all$Year == "2002"))
+all2003 <- subset(all, subset = (all$Year == "2003"))
+all2004 <- subset(all, subset = (all$Year == "2004"))
+all2005 <- subset(all, subset = (all$Year == "2005"))
+all2006 <- subset(all, subset = (all$Year == "2006"))
+all2007 <- subset(all, subset = (all$Year == "2007"))
+all2008 <- subset(all, subset = (all$Year == "2008"))
+all2009 <- subset(all, subset = (all$Year == "2009"))
+all2010 <- subset(all, subset = (all$Year == "2010"))
+all2011 <- subset(all, subset = (all$Year == "2011"))
+all2012 <- subset(all, subset = (all$Year == "2012"))
+all2013 <- subset(all, subset = (all$Year == "2013"))
+all2014 <- subset(all, subset = (all$Year == "2014"))
+all2015 <- subset(all, subset = (all$Year == "2015"))
+all2016 <- subset(all, subset = (all$Year == "2016"))
+all2017 <- subset(all, subset = (all$Year == "2017"))
+all2018 <- subset(all, subset = (all$Year == "2018"))
+
+AveDan1993 <- (sum(all1994$Danceability)/nrow(all1993))
+AveDan1994 <- (sum(all1994$Danceability)/nrow(all1994))
+AveDan1995 <- (sum(all1995$Danceability)/nrow(all1995))
+AveDan1996 <- (sum(all1996$Danceability)/nrow(all1996))
+AveDan1997 <- (sum(all1997$Danceability)/nrow(all1997))
+AveDan1998 <- (sum(all1998$Danceability)/nrow(all1998))
+AveDan1999 <- (sum(all1999$Danceability)/nrow(all1999))
+AveDan2000 <- (sum(all2000$Danceability)/nrow(all2000))
+AveDan2001 <- (sum(all2001$Danceability)/nrow(all2001))
+AveDan2002 <- (sum(all2002$Danceability)/nrow(all2002))
+AveDan2003 <- (sum(all2003$Danceability)/nrow(all2003))
+AveDan2004 <- (sum(all2004$Danceability)/nrow(all2004))
+AveDan2005 <- (sum(all2005$Danceability)/nrow(all2005))
+AveDan2006 <- (sum(all2006$Danceability)/nrow(all2006))
+AveDan2007 <- (sum(all2007$Danceability)/nrow(all2007))
+AveDan2008 <- (sum(all2008$Danceability)/nrow(all2008))
+AveDan2009 <- (sum(all2009$Danceability)/nrow(all2009))
+AveDan2010 <- (sum(all2010$Danceability)/nrow(all2010))
+AveDan2011 <- (sum(all2011$Danceability)/nrow(all2011))
+AveDan2012 <- (sum(all2012$Danceability)/nrow(all2012))
+AveDan2013 <- (sum(all2013$Danceability)/nrow(all2013))
+AveDan2014 <- (sum(all2014$Danceability)/nrow(all2014))
+AveDan2015 <- (sum(all2015$Danceability)/nrow(all2015))
+AveDan2016 <- (sum(all2016$Danceability)/nrow(all2016))
+AveDan2017 <- (sum(all2017$Danceability)/nrow(all2017))
+AveDan2018 <- (sum(all1994$Danceability)/nrow(all2018))
+```
+
+```{r}
+#Duration
+plot(all$Position ~ all$Duration, xlab = "Duration of song (milliseconds)", ylab = "Position")
+ 
+#Explicit 
+all$Explicit <- as.numeric(all$Explicit)
+hist(all$Explicit, freq = TRUE, xlab = "Explicit, 1 = TRUE, 0 = False", main = "Frequency of Explicit Language")
+ 
+#POPULARITY 
+
+plot(all$Position ~ all$Popularity, xlab = "Popularity of song", ylab = "Position")
+ 
+# The issue with this plot is that Popularity is calculated using year. While we would expect a positively correlated plot, songs from 1993 are likely to have low popularity compared to songs from 2018. Let's look at 1993 compared to 2018:
+
+all1993 <- subset(all, subset = (all$Year == "1993"))
+all2018 <- subset(all, subset = (all$Year == "2018"))
+plot(all1993$Position ~ all1993$Popularity, xlab = "Popularity of song", ylab = "Position", main = "Popularity of 1993")
+ 
+plot(all2018$Position ~ all2018$Popularity, xlab = "Popularity of song", ylab = "Position", main = "Popularity of 2018")
+ 
+#As predicted, songs in 1993 have a lot lower popularity, with many 0 values. Songs from 2018 have a lot higher popularity. We can also see this numerically:
+
+dim(all1993)
+
+dim(all2018)
+AvePop1993 <- (sum(all1993$Popularity) / 88)
+AvePop2018 <- (sum(all2018$Popularity) / 104)
+AvePop1993
+
+AvePop2018
+
+# The average popularity of 2018 songs are more than double that of 1993. Will likely make it into a model due to this bias. No need to explore any further because of this.
+#DANCEABILITY 
+
+plot(all$Position ~ all$Danceability, xlab = "Danceability of song", ylab = "Position")
+ 
+#It may be interesting to look at trends over time, whether danceability increases for example
+
+#1993 Data
+plot(all1993$Position ~ all1993$Danceability, xlab = "Danceability of song", ylab = "Position", main = "1993")
+ 
+#2018 Data
+plot(all2018$Position ~ all2018$Danceability, xlab = "Danceability of song", ylab = "Position", main = "2018")
+ 
+AveDan1993 <- (sum(all1993$Danceability) / 88)
+AveDan2018 <- (sum(all2018$Danceability) / 104)
+AveDan1993
+## [1] 0.5571136
+AveDan2018
+## [1] 0.6320865
+# Again, slightly higher. As we are comparing the min and max years, we can't assume that the trend is strictly linear, as anything may be happening in the years in-between. While this suggests an increase in danceability over time, we would have to compare all years to determine whether there is a trend or simply just a difference in these two years:
+
+
+AveDan <- c(AveDan1993, AveDan1994, AveDan1995, AveDan1996, AveDan1997, AveDan1998, AveDan1999, AveDan2000, AveDan2001, AveDan2002, AveDan2003, AveDan2004, AveDan2005, AveDan2006, AveDan2007, AveDan2008, AveDan2009, AveDan2010, AveDan2011, AveDan2012, AveDan2013, AveDan2014, AveDan2015, AveDan2016, AveDan2017, AveDan2018)
+Years <- c(1993:2018)
+plot(AveDan ~ Years, xlab = "Year", ylab = "Average Danceability")
+ 
+# As we can see there is an increase in danceability throughout the years.
+#ENERGY 
+
+plot(all$Position ~ all$Energy, xlab = "Energy of song", ylab = "Position")
+ 
+#As we can see most songs have an energy of above 0.4. This likely won't be very helpful in prediction. Let's look year by year again:
+
+plot(all1993$Position ~ all1993$Energy, xlab = "Energy of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Energy, xlab = "Energy of song", ylab = "Position", main = "2018")
+ 
+AveEn1993 <- (sum(all1993$Energy)/ nrow(all1993))
+AveEn2018 <- (sum(all2018$Energy) / nrow(all2018))
+AveEn1993
+
+AveEn2018
+
+# No real difference
+#KEY
+
+hist(all$Key, xlab = "Key", main = "Histogram of Key")
+ 
+#Interesting to note that most songs are written in C: an "easy" key to play as there are no sharps or flats. Next is G, which is also an "easy" key to play as it only has 1 sharp, followed by A, which has 3 sharps, then B, which has 5 sharps. Interesting to note the odd number of sharps, and only sharps. D, which has 2 sharps, is written in the least. Maybe investigate whether the key influences easiness to listen to We wouldn't expect Key to have much of an effect on position as mode.
+#MODE
+
+hist(all$Mode, xlab = "Mode", main = "Histogram of Mode")
+ 
+# Mainly Major, as expected 
+# LOUDNESS
+
+plot(all$Position ~ all$Loudness, xlab = "Loudness of song", ylab = "Position") 
+ 
+#Quite loud songs. Let's compare years again:
+
+plot(all1993$Position ~ all1993$Loudness, xlab = "Loudness of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Loudness, xlab = "Loudness of song", ylab = "Position", main = "2018")
+ 
+AveLoud1993 <- (sum(all1993$Loudness) / nrow(all1993))
+AveLoud2018 <- (sum(all2018$Loudness) / nrow(all2018))
+AveLoud1993
+
+AveLoud2018
+
+# 2018 is louder, but no real significant difference
+# SPEECHINESS
+
+plot(all$Position ~ all$Speechiness, xlab = "Speechiness of song", ylab = "Position")
+ 
+# As expected, values are within the "song" range. Compare Years:
+
+plot(all1993$Position ~ all1993$Speechiness, xlab = "Speechiness of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Speechiness, xlab = "Speechiness of song", ylab = "Position", main = "2018")
+ 
+AveSpeech1993 <- (sum(all1993$Speechiness) / nrow(all1993))
+AveSpeech2018 <- (sum(all2018$Speechiness) / nrow(all2018))
+AveSpeech1993
+
+AveSpeech2018
+
+# No real difference.
+#ACOUSTICNESS
+
+plot(all$Position ~ all$Acousticness, xlab = "Acousticness of song", ylab = "Position")
+ 
+# As expected, most songs aren't live (or acoustic).
+
+plot(all1993$Position ~ all1993$Acousticness, xlab = "Acousticness of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Acousticness, xlab = "Acousticness of song", ylab = "Position", main = "2018")
+ 
+AveAc1993 <- (sum(all1993$Acousticness) / nrow(all1993))
+AveAc2018 <- (sum(all2018$Acousticness) / nrow(all2018))
+AveAc1993
+
+AveAc2018
+
+
+# Slightly higher in 2018 but no signification difference.
+#INSTRUMENTALNESS 
+
+plot(all$Position ~ all$Instrumentalness, xlab = "Instrumentalness of song", ylab = "Position")
+ 
+# As expected, most songs aren't purely instrumental, and have values of 0.0, meaning there is an extremely low chance of being instrumental, or certainty that the song isn't instrumental.
+
+plot(all1993$Position ~ all1993$Instrumentalness, xlab = "Instrumentalness of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Instrumentalness, xlab = "Instrumentalness of song", ylab = "Position", main = "2018")
+ 
+AveIn1993 <- (sum(all1993$Instrumentalness) / nrow(all1993))
+AveIn2018 <- (sum(all2018$Instrumentalness) / nrow(all2018))
+AveIn1993
+
+AveIn2018
+
+# More "Instrumental" songs in 1993 but no significant difference otherwise.
+#VALENCE 
+
+plot(all$Position ~ all$Valence, xlab = "Valence of song", ylab = "Position")
+ 
+plot(all1993$Position ~ all1993$Valence, xlab = "Valence of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Valence, xlab = "Valence of song", ylab = "Position", main = "2018")
+ 
+# Again, no apparent correlation
+
+AveVal1993 <- (sum(all1993$Valence) / nrow(all1993))
+AveVal2018 <- (sum(all2018$Valence) / nrow(all2018))
+AveVal1993
+
+AveVal2018
+
+
+# Slight difference, but not significantly
+
+# the difference: 0.5679023 - 0.4703654 = 0.0975369
+#LIVENESS
+
+plot(all1993$Position ~ all1993$Liveness, xlab = "Liveness of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Liveness, xlab = "Liveness of song", ylab = "Position", main = "2018")
+ 
+AveLive1993 <- (sum(all1993$Liveness) / nrow(all1993))
+AveLive2018 <- (sum(all2018$Liveness) / nrow(all2018))
+AveLive1993
+
+AveLive2018
+
+
+# Less live songs in 2018, as can also be seen graphically. Not significant
+#TEMPO
+
+plot(all$Position ~ all$Tempo, xlab = "tempo of song", ylab = "Position")
+ 
+# Though energy is scaled, we would expect a positive relationship between tempo and energy:
+
+plot(all$Energy ~ all$Tempo, xlab = "Tempo of song", ylab = "Energy of Song")
+ 
+# Not apparent in this graph
+
+plot(all1993$Position ~ all1993$Tempo, xlab = "Tempo of song", ylab = "Position", main = "1993")
+ 
+plot(all2018$Position ~ all2018$Tempo, xlab = "tempo of song", ylab = "Position", main = "2018")
+ 
+AveTem1993 <- (sum(all1993$Tempo) / nrow(all1993))
+AveTem2018 <- (sum(all2018$Tempo) / nrow(all2018))
+AveTem1993
+
+AveTem2018
+
+
+# As energy decreased, so too did tempo. This makes sense logically. And shows the relationship between them.
+#TIME SIGNATURE
+
+hist(all$Time_Signature, xlab = "Time signature", main = "histogram of time signature")
+ 
+# As expected, nearly all songs have 4 beats per bar, which is known as common time. This is again "easy" to listen to as the listener knows when to expect the down beats.
+```
+
+
+### Linear Regression
+```{r}
+Index <- sample(nrow(all), size = 0.85 * nrow(all), replace = FALSE)
+head(Index)
+
+all.train <- all[Index, ]
+all.test <- all[-Index, ]
+
+nrow(all)
+
+nrow(all.train) + nrow(all.test)
+
+#Create subset Without country and popularity :
+all.lm1 <- lm(Position ~ Duration + Explicit  + Danceability + Energy + Key + Mode + Loudness + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = all.train)
+summary(all.lm1)
+
+plot(all.lm1)
+    
+#RMSEP
+allpred <- predict(all.lm1, newdata = all.test)
+RMSEP.all <- sqrt(sum((all.test$Position - allpred)^2)/length(all.test$Position))
+RMSEP.all
+
+#PREDICTIVE MODEL
+Range.all <- range(c(all.test$Position, allpred))
+plot(all.test$Position ~ allpred, xlab = "predictions of position", ylab = "actual position", xlim = Range.all, ylim = Range.all)
+abline(0, 1)
+text(Range.all[1] + 1, Range.all[2] - 2, label = paste("RMSEP:", round(RMSEP.all, 2)), adj = 0)
+ 
+#CREATE MODEL USING FORWARD SELECTION 
+lm0 <-  lm(Position ~ 1, data = all.train)
+allfwd <- step(lm0, scope = formula(all.lm1), direction = "forward", trace = 0)
+summary(allfwd)
+
+plot(allfwd)
+    
+#RMSEP
+fwdpred <- predict(allfwd, newdata = all.test)
+RMSEP.fwd <- sqrt(sum((all.test$Position - fwdpred)^2)/length(all.test$Position))
+RMSEP.fwd
+
+#PREDICTIVE MODEL
+Rangefwd <- range(c(all.test$Position, fwdpred))
+plot(all.test$Position ~ fwdpred, xlab = "predictions of position", ylab = "actual position", xlim = Rangefwd, ylim = Rangefwd)
+abline(0, 1)
+text(Rangefwd[1] + 1, Rangefwd[2] - 2, label = paste("RMSEP:", round(RMSEP.fwd, 2)), adj = 0)
+ 
+#CREATE MODEL USING BACKWARDS SELECTION
+allbwd <- step(all.lm1, direction = "backward", trace = 0)
+summary(allbwd)
+
+bwdpred <- predict(allbwd, newdata = all.test)
+
+#REMSEP
+RMSEP.bwd <- sqrt(sum((all.test$Position - bwdpred)^2)/length(all.test$Position))
+RMSEP.bwd
+
+#PREDICTIVE MODEL
+Range.bwd <- range(c(all.test$Position, bwdpred))
+plot(all.test$Position ~ bwdpred, xlab = "predicitions from backward prediction", ylab = "actual position", xlim = Range.bwd, ylim = Range.bwd)
+abline(0,1)
+text(Range.bwd[1] + 1, Range.bwd[2] - 2, label = paste("RMSEP: ", round(RMSEP.bwd, 2)), adj = 0)
+ 
+#DATA FROM 1993
+Index1993 <- sample(nrow(all1993), size = 0.8 * nrow(all1993), replace = FALSE)
+head(Index1993)
+
+all1993.train <- all1993[Index, ]
+all1993.test <- all1993[-Index, ]
+
+#MODEL
+all1993.lm <- lm(Position ~ Duration + Explicit + Popularity + Danceability + Energy + Key + Mode + Loudness + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = all1993.train)
+summary(all1993.lm)
+
+plot(all1993.lm)
+    
+#RMSEP
+allpred1993 <- predict(all1993.lm, newdata = all1993.test)
+RMSEP1993.all <- sqrt(sum((all1993.test$Position - allpred1993)^2)/length(all1993.test$Position))
+RMSEP1993.all
+
+#PREDICTIVE MODEL
+Range1993.all <- range(c(all1993.test$Position, allpred1993))
+plot(all1993.test$Position ~ allpred1993, xlab = "predicitions from full model", ylab = "actual position", xlim = Range1993.all, ylim = Range1993.all)
+abline(0,1)
+text(Range1993.all[1] + 1, Range1993.all[2] - 2, label = paste("RMSEP: ", round(RMSEP1993.all, 2)), adj = 0)
+ 
+#1993 MODEL USING FORWARD SELECTION
+lm0.1993 <-  lm(Position ~ 1, data = all1993.train)
+allfwd.1993 <- step(lm0.1993, scope = formula(all1993.lm), direction = "forward", trace = 0)
+summary(allfwd.1993)
+
+plot(allfwd.1993)
+    
+#RMSEP
+fwdpred1993 <- predict(allfwd.1993, newdata = all1993.test)
+RMSEP1993.fwd <- sqrt(sum((all1993.test$Position - fwdpred1993)^2)/length(all1993.test$Position))
+RMSEP1993.fwd
+## [1] 36.28163
+#PREDICTIVE MODEL
+Range1993.fwd <- range(c(all1993.test$Position, fwdpred1993))
+plot(all1993.test$Position ~ fwdpred1993, xlab = "predicitions from forward prediction", ylab = "actual position", xlim = Range1993.fwd, ylim = Range1993.fwd)
+abline(0,1)
+text(Range1993.fwd[1] + 1, Range1993.fwd[2] - 2, label = paste("RMSEP: ", round(RMSEP1993.fwd, 2)), adj = 0)
+ 
+#1993 MODEL USING BACKWARD SELECTION 
+allbwd.1993 <- step(all1993.lm, direction = "backward", trace = 0)
+summary(allbwd.1993)
+
+plot(allbwd.1993)
+    
+#RMSEP
+bwdpred1993 <- predict(allbwd.1993, newdata = all1993.test)
+RMSEP1993.bwd <- sqrt(sum((all1993.test$Position - bwdpred1993)^2)/length(all1993.test$Position))
+RMSEP1993.bwd
+
+#PREDICTIVE MODEL
+Range1993.bwd <- range(c(all1993.test$Position, bwdpred1993))
+plot(all1993.test$Position ~ bwdpred1993, xlab = "predicitions from backward prediction", ylab = "actual position", xlim = Range1993.bwd, ylim = Range1993.bwd)
+abline(0,1)
+text(Range1993.bwd[1] + 1, Range1993.bwd[2] - 2, label = paste("RMSEP: ", round(RMSEP1993.bwd, 2)), adj = 0)
+ 
+##DATA FROM 2005
+Index2005 <- sample(nrow(all2005), size = 0.8 * nrow(all2005), replace = FALSE)
+head(Index2005)
+## [1] 79 44  2 43 11 63
+all2005.train <- all2005[Index, ]
+all2005.test <- all2005[-Index, ]
+
+#MODEL 
+all2005.lm <- lm(Position ~ Duration + Explicit + Popularity + Danceability + Energy + Key + Mode + Loudness + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = all2005.train)
+summary(all2005.lm)
+
+plot(all2005.lm)
+    
+#RMSEP
+allpred2005 <- predict(all2005.lm, newdata = all2005.test)
+RMSEP2005.all <- sqrt(sum((all2005.test$Position - allpred2005)^2)/length(all2005.test$Position))
+RMSEP2005.all
+## [1] 35.57035
+Range2005.all <- range(c(all2005.test$Position, allpred2005))
+
+#PREDICTIVE MODEL
+plot(all2005.test$Position ~ allpred2005, xlab = "predicitions from full model", ylab = "actual position", xlim = Range2005.all, ylim = Range2005.all)
+abline(0,1)
+text(Range2005.all[1] + 1, Range2005.all[2] - 2, label = paste("RMSEP: ", round(RMSEP2005.all, 2)), adj = 0)
+ 
+#2005 MODEL USING FORWARD SELECTION 
+lm0.2005 <-  lm(Position ~ 1, data = all2005.train)
+allfwd.2005 <- step(lm0.2005, scope = formula(all2005.lm), direction = "forward", trace = 0)
+summary(allfwd.2005)
+
+plot(allfwd.2005)
+    
+#REMSEP
+fwdpred2005 <- predict(allfwd.2005, newdata = all2005.test)
+RMSEP2005.fwd <- sqrt(sum((all2005.test$Position - fwdpred2005)^2)/length(all2005.test$Position))
+RMSEP2005.fwd
+
+#PREDICTIVE MODEL
+Range2005.fwd <- range(c(all2005.test$Position, fwdpred2005))
+plot(all2005.test$Position ~ fwdpred2005, xlab = "predicitions from forward prediction", ylab = "actual position", xlim = Range2005.fwd, ylim = Range2005.fwd)
+abline(0,1)
+text(Range2005.fwd[1] + 1, Range2005.fwd[2] - 2, label = paste("RMSEP: ", round(RMSEP2005.fwd, 2)), adj = 0)
+ 
+#2005 MODEL USING BACKWARD SELECTION 
+allbwd.2005 <- step(all2005.lm, direction = "backward", trace = 0)
+summary(allbwd.2005)
+
+plot(allbwd.2005)
+    
+#REMSEP
+bwdpred2005 <- predict(allbwd.2005, newdata = all2005.test)
+RMSEP2005.bwd <- sqrt(sum((all2005.test$Position - bwdpred2005)^2)/length(all2005.test$Position))
+RMSEP2005.bwd
+
+#PREDICTIVE MODEL
+Range2005.bwd <- range(c(all2005.test$Position, bwdpred2005))
+plot(all2005.test$Position ~ bwdpred2005, xlab = "predicitions from backward prediction", ylab = "actual position", xlim = Range2005.bwd, ylim = Range2005.bwd)
+abline(0,1)
+text(Range2005.bwd[1] + 1, Range2005.bwd[2] - 2, label = paste("RMSEP: ", round(RMSEP2005.bwd, 2)), adj = 0)
+ 
+##DATA FROM 2018
+Index2018 <- sample(nrow(all2018), size = 0.8 * nrow(all2018), replace = FALSE)
+head(Index2018)
+
+all2018.train <- all2018[Index, ]
+all2018.test <- all2018[-Index, ]
+
+#Model 
+all2018.lm <- lm(Position ~ Duration + Explicit + Popularity + Danceability + Energy + Key + Mode + Loudness + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = all2018.train)
+summary(all2018.lm)
+
+plot(all2018.lm)
+    
+#RMSEP
+allpred2018 <- predict(all2018.lm, newdata = all2018.test)
+RMSEP2018.all <- sqrt(sum((all2018.test$Position - allpred2018)^2)/length(all2018.test$Position))
+RMSEP2018.all
+
+#PREDICTIVE MODEL
+Range2018.all <- range(c(all2018.test$Position, allpred2018))
+plot(all2018.test$Position ~ allpred2018, xlab = "predicitions from full model", ylab = "actual position", xlim = Range2018.all, ylim = Range2018.all)
+abline(0,1)
+text(Range2018.all[1] + 1, Range2018.all[2] - 2, label = paste("RMSEP: ", round(RMSEP2018.all, 2)), adj = 0)
+ 
+#2018 MODEL USING FORWARD SELECTION 
+lm0.2018 <-  lm(Position ~ 1, data = all2018.train)
+allfwd.2018 <- step(lm0.2018, scope = formula(all2018.lm), direction = "forward", trace = 0)
+summary(allfwd.2018)
+
+plot(allfwd.2018)
+    
+#RMSEP
+fwdpred2018 <- predict(allfwd.2018, newdata = all2018.test)
+RMSEP2018.fwd <- sqrt(sum((all2018.test$Position - fwdpred2018)^2)/length(all2018.test$Position))
+RMSEP2018.fwd
+
+#PREDICTIVE MODEL
+Range2018.fwd <- range(c(all2018.test$Position, fwdpred2018))
+plot(all2018.test$Position ~ fwdpred2018, xlab = "predicitions from forward prediction", ylab = "actual position", xlim = Range2018.fwd, ylim = Range2018.fwd)
+abline(0,1)
+text(Range2018.fwd[1] + 1, Range2018.fwd[2] - 2, label = paste("RMSEP: ", round(RMSEP2018.fwd, 2)), adj = 0)
+ 
+#2018 MODEL USING BACKWARD SELECTION 
+allbwd.2018 <- step(all2018.lm, direction = "backward", trace = 0)
+summary(allbwd.2018)
+
+plot(allbwd.2018)
+    
+#RMSEP
+bwdpred2018 <- predict(allbwd.2018, newdata = all2018.test)
+RMSEP2018.bwd <- sqrt(sum((all2018.test$Position - bwdpred2018)^2)/length(all2018.test$Position))
+RMSEP2018.bwd
+
+#PREDICTIVE MODEL
+Range2018.bwd <- range(c(all2018.test$Position, bwdpred2018))
+plot(all2018.test$Position ~ bwdpred2018, xlab = "predicitions from backward prediction", ylab = "actual position", xlim = Range2018.bwd, ylim = Range2018.bwd)
+abline(0,1)
+text(Range2018.bwd[1] + 1, Range2018.bwd[2] - 2, label = paste("RMSEP: ", round(RMSEP2018.bwd, 2)), adj = 0)
+```
+
+
+```{r}
+#USING HALF OF DATA
+IndexHalf <- sample(nrow(all), size = 0.5 * nrow(all), replace = FALSE)
+allhalf <- all[IndexHalf, ]
+
+newindexhalf <- sample(nrow(allhalf), size = 0.85 * nrow(allhalf), replace = FALSE)
+allhalf.train <- allhalf[newindexhalf, ]
+allhalf.test <- allhalf[-newindexhalf, ]
+
+#MODEL
+allhalf.lm <- lm(Position ~ Duration + Explicit  + Danceability + Energy + Key + Mode + Loudness + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = allhalf.train)
+plot(allhalf.lm)
+    
+#RMSEP
+allhalf.pred <- predict(allhalf.lm, newdata = allhalf.test)
+RMSEPhalf.all <- sqrt(sum((allhalf.test$Position - allhalf.pred)^2)/length(allhalf.test$Position))
+
+#PREDICTIVE MODEL
+RangeHalf.all <- range(c(allhalf.test$Position, allhalf.pred))
+plot(allhalf.test$Position ~ allhalf.pred, xlab = "predictions of position", ylab = "actual position", xlim = RangeHalf.all, ylim = RangeHalf.all)
+abline(0, 1)
+text(RangeHalf.all[1] + 1, RangeHalf.all[2] - 2, label = paste("RMSEP:", round(RMSEPhalf.all, 2)), adj = 0)
+ 
+#MODEL OF HALF OF DATA USING FORWARD SELECTION
+lmhalf.0 <-  lm(Position ~ 1, data = allhalf.train)
+allhalf.fwd <- step(lmhalf.0, scope = formula(allhalf.lm), direction = "forward", trace = 0)
+
+plot(allhalf.fwd)
+    
+#RMSEP
+fwdhalf.pred <- predict(allhalf.fwd, newdata = allhalf.test)
+RMSEPhalf.fwd <- sqrt(sum((allhalf.test$Position - fwdhalf.pred)^2)/length(allhalf.test$Position))
+RMSEPhalf.fwd
+
+#PREDICTIVE MODEL
+Rangehalf.fwd <- range(c(allhalf.test$Position, fwdhalf.pred))
+plot(allhalf.test$Position ~ fwdhalf.pred, xlab = "predictions of position", ylab = "actual position", xlim = Rangehalf.fwd, ylim = Rangehalf.fwd)
+abline(0, 1)
+text(Rangehalf.fwd[1] + 1, Rangehalf.fwd[2] - 2, label = paste("RMSEP:", round(RMSEPhalf.fwd, 2)), adj = 0)
+ 
+#MODEL OF HALF OF DATA USING BACKWARD SELECTION
+allhalf.bwd <- step(allhalf.lm, direction = "backward", trace = 0)
+summary(allhalf.bwd)
+
+plot(allhalf.bwd)
+    
+#RMSEP
+bwdhalf.pred <- predict(allhalf.bwd, newdata = allhalf.test)
+RMSEPhalf.bwd <- sqrt(sum((allhalf.test$Position - bwdhalf.pred)^2)/length(allhalf.test$Position))
+RMSEPhalf.bwd
+
+#PREDICTIVE MODEL
+Rangehalf.bwd <- range(c(allhalf.test$Position, bwdhalf.pred))
+
+plot(allhalf.test$Position ~ bwdhalf.pred, xlab = "predicitions from backward prediction", ylab = "actual position", xlim = Rangehalf.bwd, ylim = Rangehalf.bwd)
+abline(0,1)
+text(Rangehalf.bwd[1] + 1, Rangehalf.bwd[2] - 2, label = paste("RMSEP: ", round(RMSEPhalf.bwd, 2)), adj = 0)
+```
+
+```{r}
+#USING QUARTER OF DATA
+IndexQtr <- sample(nrow(all), size = 0.25 * nrow(all), replace = FALSE)
+head(IndexQtr)
+
+allqtr <- all[IndexQtr, ]
+
+newindexqtr <- sample(nrow(allqtr), size = 0.85 * nrow(allqtr), replace = FALSE)
+allqtr.train <- allqtr[newindexqtr, ]
+allqtr.test <- allqtr[-newindexqtr, ]
+
+#MODEL
+allqtr.lm <- lm(Position ~ Duration + Explicit  + Danceability + Energy + Key + Mode + Loudness + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = allqtr.train)
+summary(allqtr.lm)
+
+plot(allqtr.lm)
+    
+#RMSEP
+allqtr.pred <- predict(allqtr.lm, newdata = allqtr.test)
+RMSEPqtr.all <- sqrt(sum((allqtr.test$Position - allqtr.pred)^2)/length(allqtr.test$Position))
+RMSEPqtr.all
+
+#PREDICTIVE MODEL
+Rangeqtr.all <- range(c(allqtr.test$Position, allqtr.pred))
+plot(allqtr.test$Position ~ allqtr.pred, xlab = "predictions of position", ylab = "actual position", xlim = Rangeqtr.all, ylim = Rangeqtr.all)
+abline(0, 1)
+text(Rangeqtr.all[1] + 1, Rangeqtr.all[2] - 2, label = paste("RMSEP:", round(RMSEPqtr.all, 2)), adj = 0)
+ 
+#MODEL OF HALF OF DATA USING FORWARD SELECTION
+lmqtr.0 <-  lm(Position ~ 1, data = allqtr.train)
+allqtr.fwd <- step(lmqtr.0, scope = formula(allqtr.lm), direction = "forward", trace = 0)
+summary(allqtr.fwd)
+
+plot(allqtr.fwd)
+    
+#RMSEP
+fwdqtr.pred <- predict(allqtr.fwd, newdata = allqtr.test)
+RMSEPqtr.fwd <- sqrt(sum((allqtr.test$Position - fwdqtr.pred)^2)/length(allqtr.test$Position))
+RMSEPqtr.fwd
+
+#PREDICTIVE MODEL
+Rangeqtr.fwd <- range(c(allqtr.test$Position, fwdqtr.pred))
+plot(allqtr.test$Position ~ fwdqtr.pred, xlab = "predictions of position", ylab = "actual position", xlim = Rangeqtr.fwd, ylim = Rangeqtr.fwd)
+abline(0, 1)
+text(Rangeqtr.fwd[1] + 1, Rangeqtr.fwd[2] - 2, label = paste("RMSEP:", round(RMSEPqtr.fwd, 2)), adj = 0)
+ 
+#MODEL OF HALF OF DATA USING BACKWARD SELECTION
+allqtr.bwd <- step(allqtr.lm, direction = "backward", trace = 0)
+summary(allqtr.bwd)
+
+plot(allqtr.bwd)
+    
+#RMSEP
+bwdqtr.pred <- predict(allqtr.bwd, newdata = allqtr.test)
+RMSEPqtr.bwd <- sqrt(sum((allqtr.test$Position - bwdqtr.pred)^2)/length(allqtr.test$Position))
+RMSEPqtr.bwd
+
+#PREDICTIVE MODEL
+Rangeqtr.bwd <- range(c(allqtr.test$Position, bwdqtr.pred))
+plot(allqtr.test$Position ~ bwdqtr.pred, xlab = "predicitions from backward prediction", ylab = "actual position", xlim = Rangeqtr.bwd, ylim = Rangeqtr.bwd)
+abline(0,1)
+text(Rangeqtr.bwd[1] + 1, Rangeqtr.bwd[2] - 2, label = paste("RMSEP: ", round(RMSEPqtr.bwd, 2)), adj = 0)
+```
+
+```{r}
+#USING FIVE PERCENT OF DATA
+Index5 <- sample(nrow(all), size = 0.05 * nrow(all), replace = FALSE)
+head(Index5)
+
+all5 <- all[Index5, ]
+
+newindex5 <- sample(nrow(all5), size = 0.85 * nrow(all5), replace = FALSE)
+all5.train <- all5[newindex5, ]
+all5.test <- all5[-newindex5, ]
+
+#MODEL
+all5.lm <- lm(Position ~ Duration + Explicit  + Danceability + Energy + Key + Mode + Loudness + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = all5.train)
+summary(all5.lm)
+
+plot(all5.lm)
+    
+#RMSEP
+all5.pred <- predict(all5.lm, newdata = all5.test)
+
+RMSEP5.all <- sqrt(sum((all5.test$Position - all5.pred)^2)/length(all5.test$Position))
+RMSEP5.all
+
+#PREDICTIVE MODEL
+Range5.all <- range(c(all5.test$Position, all5.pred))
+plot(all5.test$Position ~ all5.pred, xlab = "predictions of position", ylab = "actual position", xlim = Range5.all, ylim = Range5.all)
+abline(0, 1)
+text(Range5.all[1] + 1, Range5.all[2] - 2, label = paste("RMSEP:", round(RMSEP5.all, 2)), adj = 0)
+ 
+#MODEL OF FIVE PERCENT OF DATA USING FORWARD SELECTION
+lm5.0 <-  lm(Position ~ 1, data = all5.train)
+all5.fwd <- step(lm5.0, scope = formula(all5.lm), direction = "forward", trace = 0)
+summary(all5.fwd)
+
+plot(all5.fwd)
+    
+#RMSEP
+fwd5.pred <- predict(all5.fwd, newdata = all5.test)
+RMSEP5.fwd <- sqrt(sum((all5.test$Position - fwd5.pred)^2)/length(all5.test$Position))
+RMSEP5.fwd
+
+#PREDICTIVE MODEL
+Range5.fwd <- range(c(all5.test$Position, fwd5.pred))
+plot(all5.test$Position ~ fwd5.pred, xlab = "predictions of position", ylab = "actual position", xlim = Range5.fwd, ylim = Range5.fwd)
+abline(0, 1)
+text(Range5.fwd[1] + 1, Range5.fwd[2] - 2, label = paste("RMSEP:", round(RMSEP5.fwd, 2)), adj = 0)
+ 
+#MODEL OF FIVE PERCENT OF DATA USING BACKWARD SELECTION
+all5.bwd <- step(all5.lm, direction = "backward", trace = 0)
+summary(all5.bwd)
+
+plot(all5.bwd)
+    
+#RMSEP
+bwd5.pred <- predict(all5.bwd, newdata = all5.test)
+RMSEP5.bwd <- sqrt(sum((all5.test$Position - bwd5.pred)^2)/length(all5.test$Position))
+RMSEP5.bwd
+
+#PREDICTIVE MODEL
+Range5.bwd <- range(c(all5.test$Position, bwd5.pred))
+
+plot(all5.test$Position ~ bwd5.pred, xlab = "predicitions from backward prediction", ylab = "actual position", xlim = Range5.bwd, ylim = Range5.bwd)
+abline(0,1)
+text(Range5.bwd[1] + 1, Range5.bwd[2] - 2, label = paste("RMSEP: ", round(RMSEP5.bwd, 2)), adj = 0)
+```
+
+
+
+### Part 2: Album Analysis
+
+```{r}
+#ALBUMS FEATURING SONG/s IN TOP 100
+all_albums <- read.csv("albums.csv")
+all_albums <- all_albums[-4]
+colnames(all_albums)[colnames(all_albums)=="ï..Name"] <- "Name"
+
+
+all_ranks <- read_csv("all_ranks.csv", col_types = cols(Artist = col_skip()))
+
+all_ranks$H_100 <- c("YES")
+all_ranks <- all_ranks[-1]
+all_ranks <- all_ranks[-2]
+
+allnew <- merge(all_albums, all_ranks, by.x = c("Name", "Year"), by.y = c("Song", "Year"), all.x = TRUE, all.y = TRUE)
+
+dim(allnew)
+#ARTISTS WHO CREATED ALBUMS
+allnew$Artist <- as.character(allnew$Artist)
+allnew$Name <- as.character(allnew$Name)
+allnew$Album <- as.character(allnew$Album)
+str(allnew)
+
+levels(allnew$H_100) <- c(levels(allnew$H_100), "NO")
+allnew$H_100[is.na(allnew$H_100)] <- "NO"
+str(allnew$H_100)
+
+
+AllNew <- allnew
+
+
+#PLOT
+table(AllNew$H_100)
+ 
+
+#DESCRIBE 
+require(Hmisc)
+
+describe(AllNew)
+
+#Around 13% of songs in our data set placed in the hottest 100 in their respective years. We are trying to predict which songs will place.
+
+plot(describe(AllNew))
+
+ 
+#BOXPLOTS
+boxplot(Danceability ~ H_100, data = AllNew)
+ 
+boxplot(Energy ~ H_100, data = AllNew)
+ 
+boxplot(Loudness ~ H_100, data = AllNew)
+ 
+boxplot(Speechiness ~ H_100, data = AllNew)
+ 
+boxplot(Acousticness ~ H_100, data = AllNew)
+ 
+boxplot(Instrumentalness ~ H_100, data = AllNew)
+ 
+boxplot(Valence ~ H_100, data = AllNew)
+ 
+boxplot(Liveness ~ H_100, data = AllNew)
+ 
+boxplot(Tempo ~ H_100, data = AllNew)
+ 
+# All fairly similar, as expected. This is because we are comparing such a large amount of songs
+
+#MOSAIC PLOTS
+mosaicplot(Key ~ H_100, col = 4:2, data = AllNew)
+ 
+mosaicplot(Explicit ~ H_100,col = 4:2, data = AllNew)
+ 
+mosaicplot(Mode ~ H_100, col = 4:2, data = AllNew)
+ 
+mosaicplot(Time_Signature ~ H_100,col = 4:2, data = AllNew)
+ 
+#no real trends - All fairly similar, as expected. This is because we are comparing such a large amount of songs
+#NUMBER OF SONGS PLACED PER YEAR
+table(AllNew$Year)
+
+barplot(table(AllNew$Year))
+ 
+#Let's make year a factor (instead of numerical) so we can include it in our model: Key, Mode and Time Signature should all be a factor too
+
+AllNew$Year <- as.factor(AllNew$Year)
+str(AllNew$Year)
+
+AllNew$Key <- as.factor(AllNew$Key)
+str(AllNew$Key)
+
+AllNew$Mode <- as.factor(AllNew$Mode)
+str(AllNew$Mode)
+
+AllNew$Time_Signature <- as.factor(AllNew$Time_Signature)
+str(AllNew$Time_Signature)
+
+str(AllNew)
+```
+
+
+```{r}
+# TEST/TRAINING TEST
+AllNew$H_100 <- as.factor(AllNew$H_100)
+
+AllNew <- na.omit(AllNew)
+
+IndexAllNew <- sample(nrow(AllNew), 0.8 * nrow(AllNew), replace = FALSE)
+AllNew.Train <- AllNew[IndexAllNew,]
+AllNew.Test <- AllNew[-IndexAllNew,]
+
+
+
+AllNew.0 <- glm(H_100 ~ 0, data = AllNew.Train, family = binomial)
+
+AllNew.All <- glm(H_100 ~ Duration + Explicit + Danceability + Energy + Key + Loudness + Mode + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature + Year, data = AllNew.Train, family = binomial)
+
+AllNew.fwd <- step(AllNew.0, scope = formula(AllNew.All), direction = "forward", trace = 0)
+
+summary(AllNew.fwd)
+
+AllNew.fwd.pred <- predict(AllNew.fwd, newdata = AllNew.Test, type = "response")
+head(AllNew.fwd.pred)
+
+#Cutoff of 0.5
+AllNew.fwd.pred0.5 <- ifelse(AllNew.fwd.pred > 0.5, "Yes", "No")
+head(AllNew.fwd.pred0.5)
+
+table(AllNew.fwd.pred0.5, AllNew.Test$H_100, dnn = c("Predicted", "Actual"))
+
+#Cutoff 0.8
+AllNew.fwd.pred0.8 <- ifelse(AllNew.fwd.pred > 0.8, "Yes", "No")
+head(AllNew.fwd.pred0.8)
+
+table(AllNew.fwd.pred0.8, AllNew.Test$H_100, dnn = c("Predicted", "Actual"))
+
+#RECIEVER OPERATING CHARACTARISTIC CURVE
+require(ROCR)
+
+AN.pred <- prediction(AllNew.fwd.pred, AllNew.Test$H_100, label.ordering = levels(AllNew.Test$H_100))
+AN.pref <- performance(AN.pred, "tpr", "fpr")
+par(pty = "s")
+Range <- c(0,1)
+plot(AN.pref, colorize = TRUE)
+abline(0, 1)
+ 
+# DATASET WITHOUT YEARS
+AllNew.All.1 <- glm(H_100 ~ Duration + Explicit + Danceability + Energy + Key + Loudness + Mode + Speechiness + Acousticness + Instrumentalness + Valence + Liveness + Tempo + Time_Signature, data = AllNew.Train, family = binomial)
+AllNew.fwd.1 <- step(AllNew.0, scope = formula(AllNew.All.1), direction = "forward", trace = 0)
+summary(AllNew.fwd.1)
+
+AllNew.fwd.pred.1 <- predict(AllNew.fwd.1, newdata = AllNew.Test, type = "response")
+head(AllNew.fwd.pred.1)
+
+#Cutoff of 0.5
+AllNew.fwd.pred0.5.1 <- ifelse(AllNew.fwd.pred.1 > 0.5, "Yes", "No")
+head(AllNew.fwd.pred0.5.1)
+
+table(AllNew.fwd.pred0.5.1, AllNew.Test$H_100, dnn = c("Predicted", "Actual"))
+
+#As they all come out above 0.5, 
+
+#Cutoff of 0.8
+AllNew.fwd.pred0.8.1 <- ifelse(AllNew.fwd.pred.1 > 0.8, "Yes", "No")
+head(AllNew.fwd.pred0.8.1)
+
+table(AllNew.fwd.pred0.8.1, AllNew.Test$H_100, dnn = c("Predicted", "Actual"))
+
+#RECIEVER OPERATING CHARACTARISTIC CURVE
+AN.pred.1 <- prediction(AllNew.fwd.pred.1, AllNew.Test$H_100, label.ordering = levels(AllNew.Test$H_100))
+AN.pref.1 <- performance(AN.pred.1, "tpr", "fpr")
+par(pty = "s")
+plot(AN.pref.1, colorize = TRUE)
+abline(0,1)
+```
+
+
+```{r}
+#NORMALISE DATA
+
+#Create a new data frame in case the main gets messed up
+album <- AllNew
+album <- na.omit(album)
+
+album$Key <- as.numeric(album$Key)
+album$Mode <- as.numeric(album$Mode)
+album$Time_Signature <- as.numeric(album$Time_Signature)
+
+#We'll remove explicit since it isnt numerical:
+album <- album[-6]
+
+#Normalise from columns 5 to 14. column 1 is the song name,2 the year, 3 the album, 4 the artist and 18 what we're trying to predict (and is also a factor) 
+normalise <- function(x) {
+  return ((x - min(x)) / (max(x) - min(x)))}
+album_n <- as.data.frame(lapply(album[5:17], normalise))
+dim(album)
+
+dim(album_n)
+
+#Let' make sure it's been normalised, we'll pick energy randomly to check.
+summary(album_n$Energy)
+
+#Has been normalised. remove n/a's (if there are any)
+album_n <- na.omit(album_n)
+
+#TEST AND TRAINING SETS
+indexalbum <- sample(nrow(album_n), 0.8 * nrow(album_n), replace = FALSE)
+
+albumTrain <- album_n[indexalbum,]
+albumTest <- album_n[-indexalbum,]
+
+#We havent included H_100, so we'll create labelled data frames
+album_train_label <- album[indexalbum, 18]
+album_test_label <- album[-indexalbum, 18]
+#KNN
+
+library(class)
+
+#10 nearest neighbours:
+album10 <- knn(train = albumTrain, test = albumTest, cl = album_train_label, k = 10)
+head(album10)
+
+#confusion matrix
+table(album10, album_test_label)
+
+#Let's try with a K value of 100
+album100 <- knn(train = albumTrain, test = albumTest, cl = album_train_label, k = 100)
+head(album100)
+
+#confusion matrix
+table(album100, album_test_label)
+
+#lets try with the square root of the number of yes's: 2448
+sqrt(2448)
+
+#We'll round to 49
+album49 <- knn(train = albumTrain, test = albumTest, cl = album_train_label, k = 49)
+head(album49)
+
+table(album49, album_test_label)
+
+#KNN PLOTS
+
+#knn1 is described as: Nearest neighbour classification for test set from training set. For each row of the test set, the nearest (by Euclidean distance) training set vector is found, and its classification used. If there is more than one nearest, a majority vote is used with ties broken at random.Let's try with knn1
+
+albumknn1 <- knn1(train = albumTrain, test = albumTest, cl = album_train_label)
+head(albumknn1)
+
+table(albumknn1, album_test_label)
+
+album_acc <- numeric() #Holding variable
+ 
+for(i in 1:50){
+ #Apply knn with k = i
+ predict <- knn(albumTrain,albumTest,
+ album_train_label,k=i)
+ album_acc <- c(album_acc,
+ mean(predict==album_test_label))
+}
+#Plot k= 1 through 50
+plot(1-album_acc,type="l",ylab="Error Rate",
+ xlab="K",main="Error Rate for Hottest 100 With Varying K")
+ 
+#1 to 15 neighbours 
+
+album_acc1 <- numeric() 
+ 
+for(i in 1:15){
+ predict1 <- knn(albumTrain,albumTest,
+ album_train_label,k=i)
+ album_acc1 <- c(album_acc1,
+ mean(predict1==album_test_label))
+}
+plot(1-album_acc1, type="l",ylab="Error Rate",
+ xlab="K",main="Error Rate for Hottest 100 With Varying K")
+ 
+# between 1 and 25 neighbours for 50 samples.
+
+trial_sum<-numeric(25)
+trial_n<-numeric(25)
+set.seed(1234567)
+for(i in 1:50){
+ album_sample <-sample(1:nrow(album_n),size=nrow(album_n)*0.8)
+ album_train2 <-album_n[album_sample,]
+ album_test2 <-album_n[-album_sample,]
+ album_train_label2 <- album[album_sample, 18]
+ album_test_label2 <- album[-album_sample, 18]
+ test_size<-nrow(album_test2)
+ for(j in 1:25){
+ predict2 <-knn(album_train2, album_test2,
+ album_train_label2, k=j)
+ trial_sum[j]<-trial_sum[j]+sum(predict2==album_test_label2)
+ trial_n[j]<-trial_n[j]+test_size
+ }
+}
+ 
+plot(1-trial_sum / trial_n,type="l",ylab="Error Rate",
+ xlab="K",main="Error Rate for Hottest 100 With Varying K (50 Samples)")
+```
+
+
+# Random Forests
+```{r}
+#Add H-100 back in:
+H100 <- album[,18]
+album_n$H_100 = H100
+
+album_n$H_100 <- as.factor(album_n$H_100)
+
+#split into test and training sets:
+indexalbum <- sample(nrow(album_n), 0.8 * nrow(album_n), replace = FALSE)
+albumTrain3 <- album_n[indexalbum,]
+albumTest3 <- album_n[-indexalbum,]
+
+library(rpart)
+library(randomForest)
+library(partykit)
+
+album.rpart <- rpart(H_100 ~ ., data = albumTrain3)
+
+summary(album.rpart)
+
+clss.rpart <- predict(album.rpart, newdata = albumTest3, type = "class")
+table(clss.rpart, albumTest3$H_100, dnn = c("Predictions", "Actual"))
+
+# 25% of Data 
+indexalbum1 <- sample(nrow(album_n), 0.25 * nrow(album_n), replace = FALSE)
+album_n1 <- album_n[indexalbum1, ]
+indexalbum2 <- sample(nrow(album_n1), 0.8 * nrow(album_n1), replace = FALSE)
+albumTrain4 <- album_n[indexalbum2,]
+albumTest4 <- album_n[-indexalbum2,]
+album.rpart25 <- rpart(H_100 ~ ., data = albumTrain4)
+
+clss.rpart25 <- predict(album.rpart25, newdata = albumTest4, type = "class")
+table(clss.rpart25, albumTest4$H_100, dnn = c("Predictions", "Actual"))
+
+# 5% of Data
+indexalbum3 <- sample(nrow(album_n), 0.05 * nrow(album_n), replace = FALSE)
+album_n2 <- album_n[indexalbum3, ]
+indexalbum4 <- sample(nrow(album_n2), 0.8 * nrow(album_n2), replace = FALSE)
+albumTrain5 <- album_n2[indexalbum4,]
+albumTest5 <- album_n2[-indexalbum4,]
+album.rpart5 <- rpart(H_100 ~ ., data = albumTrain5)
+summary(album.rpart5)
+
+clss.rpart5 <- predict(album.rpart5, newdata = albumTest5, type = "class")
+table(clss.rpart5, albumTest5$H_100, dnn = c("Predictions", "Actual"))
+
+#Splits first on Instrumentalness:
+require(lattice)
+par(mfrow = c(1,2))
+stripplot(Instrumentalness ~ H_100, data = albumTrain5, main = "Instrumentalness", groups = H_100)
+ 
+#And next on Loudness:
+stripplot(Loudness ~ H_100, data = albumTrain5, main = "Loudness", groups = H_100)
+ 
+#TREE PLOT
+plot(as.party(album.rpart5), main = "Classification Tree for Hottest 100, 5%")
+require(rattle)
+
+fancyRpartPlot(album.rpart5)
+ 
+#PREDICTION
+class.rpart <- predict(album.rpart5, newdata = albumTest5, type = "class")
+table(class.rpart, albumTest5$H_100, dnn = c("Predictions", "Actual"))
+
+#RANDOM FOREST
+album.rf <- randomForest(H_100 ~ ., data = albumTrain5, importance = TRUE)
+summary(album.rf)
+
+#CONFUSION MATRIX
+album.rf$confusion
+
+
+varImpPlot(album.rf, n.var = 14, type = 2, main = "Hottest 100: variable importance plot")
+ 
+#How well does it predict compared to the tree?
+
+class.rf <- predict(album.rf, newdata = albumTest5)
+table(class.rf, albumTest5$H_100, dnn = c("Predictions", "Actual"))
+
+#Note that it's hard to use this as totally accurate predictive model as we're only using 5%
+# 5 PERCENT SPLIT
+indexalbum5 <- sample(nrow(album_n), 0.05 * nrow(album_n), replace = FALSE)
+album6 <- album_n[indexalbum5,]
+
+albumTrain6 <- album6[indexalbum5,]
+albumTest6 <- album6[-indexalbum5,]
+album.rpart6 <- rpart(H_100 ~ ., data = albumTrain6)
+summary(album.rpart6)
+
+clss.rpart6 <- predict(album.rpart6, newdata = albumTest6, type = "class")
+table(clss.rpart6, albumTest6$H_100, dnn = c("Predictions", "Actual"))
+
+#Splits first on Valence:
+require(lattice)
+par(mfrow = c(1,2))
+stripplot(Valence ~ H_100, data = albumTrain6, main = "Valence", groups = H_100)
+ 
+#And next on Duration:
+stripplot(Duration ~ H_100, data = albumTrain6, main = "Duration", groups = H_100)
+ 
+#TREE PLOT
+require(rattle)
+
+
+#Prediction:
+class.rpart <- predict(album.rpart6, newdata = albumTest6, type = "class")
+table(class.rpart, albumTest6$H_100, dnn = c("Predictions", "Actual"))
+
+#RANDOM FORESTS
+albumTrain6 <- na.omit(albumTrain6)
+album.rf1 <- randomForest(H_100 ~ ., data = albumTrain6, importance = TRUE)
+summary(album.rf)
+
+#CONFUSION MATRIX
+album.rf1$confusion
+
+
+#VARIABLE IMPORTANCE PLOT
+varImpPlot(album.rf1, n.var = 14, type = 2, main = "Hottest 100: variable importance plot")
+ 
+#How well does it predict compared to the tree?
+class.rf1 <- predict(album.rf1, newdata = albumTest6)
+table(class.rf1, albumTest6$H_100, dnn = c("Predictions", "Actual"))
+
+# 60 / 40 split
+indexalbum7 <- sample(nrow(album_n), 0.60 * nrow(album_n), replace = FALSE)
+albumTrain7 <- album_n[indexalbum7,]
+albumTest7 <- album_n[-indexalbum7,]
+album.rpart7 <- rpart(H_100 ~ ., data = albumTrain7)
+summary(album.rpart7)
+
+#Again, splits all to no.
+
+#RANDOM FORESTS
+album.rf2 <- randomForest(H_100 ~ ., data = albumTrain7, importance = TRUE)
+summary(album.rf2)
+
+#CONFUSION MATRIX
+album.rf2$confusion
+
+#VARIABLE IMPORTANCE PLOT
+varImpPlot(album.rf2, n.var = 14, type = 2, main = "Hottest 100: variable importance plot")
+ 
+#PREDICTION
+class.rf2 <- predict(album.rf2, newdata = albumTest7)
+table(class.rf2, albumTest7$H_100, dnn = c("Predictions", "Actual"))
+
+#v80 / 20 split
+indexalbum8 <- sample(nrow(album_n), 0.80 * nrow(album_n), replace = FALSE)
+albumTrain8 <- album_n[indexalbum8,]
+albumTest8 <- album_n[-indexalbum8,]
+
+#RANDOM FOREST
+album.rf3 <- randomForest(H_100 ~ ., data = albumTrain8, importance = TRUE)
+summary(album.rf3)
+  
+
+#CONFUSION MATRIX
+album.rf3$confusion
+
+#VARIABLE IMPORTANCE PLOT
+varImpPlot(album.rf3, n.var = 14, type = 2, main = "Hottest 100: variable importance plot")
+ 
+#How well does it predict?
+class.rf3 <- predict(album.rf3, newdata = albumTest8)
+table(class.rf3, albumTest8$H_100, dnn = c("Predictions", "Actual"))
+```

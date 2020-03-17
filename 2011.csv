@@ -1,0 +1,97 @@
+Name	Album	Rank	Artist	Track_id	Duration	Explicit	Popularity	Danceability	Energy	Key	Loudness	Mode	Speechiness	Acousticness	Instrumentalness	Valence	Liveness	Tempo	Time_Signature
+Somebody That I Used To Know	Somebody That I Used To Know	100	Gotye, Kimbra	72Bd8uYIcYxUwtG8pyWf2P	244884	False	1	0.865	0.512	0	-7.029	1	0.0357	0.544	0.000124	0.743	0.0988	129.036	4
+Lonely Boy	Lonely Boy	99	The Black Keys	3dOAXUx7I1qnzWzxdnsyB8	193653	False	62	0.356	0.872	2	-7.837	1	0.068	0.00417	0.00975	0.607	0.0997	166.3	4
+Brother	Into The Flame	98	Matt Corby	5KrdYQS4U1Emzer8QShBE7	254213	True	56	0.667	0.738	9	-4.826	1	0.0512	0.0375	0.00105	0.368	0.0716	100.06	4
+Feeding Line	Moonfire	97	Boy & Bear	177pePxmKgtYylD5OOMYei	269866	False	2	0.635	0.621	6	-6.019	0	0.0277	0.000784	0.0119	0.279	0.121	117.96	4
+Midnight City	Hurry Up, We're Dreaming	96	M83	4kO7mrAPfqIrsKwUOK5BFx	243960	False	10	0.507	0.729	11	-5.399	0	0.0393	0.0182	1.4e-06	0.272	0.0658	105.013	4
+Video Games	Video Games	95	Lana Del Rey	4TH73NbUaMETiYeKVor3Hi	284500	False	37	0.38	0.322	6	-8.378	0	0.0314	0.807	2.04e-06	0.226	0.0859	122.074	4
+Awkward	Awkward EP	94	San Cisco	23JZO56H9BEYQqedJSiDxZ	153960	False	37	0.59	0.871	6	-5.652	0	0.11	0.0737	4.3e-05	0.911	0.12	161.843	4
+Boys Like You	Falling & Flying	93	360, Gossling	2Aab1S0t1HRbvF1BKaw2xj	220626	True	51	0.712	0.688	3	-8.567	0	0.117	0.00437	0	0.515	0.134	145.964	4
+Endless Summer	Endless Summer	92	The Jezabels	2ZAQRYHtIP630wyBwA0CLV	251533	False	14	0.482	0.875	7	-4.638	1	0.0503	0.0221	0.0147	0.449	0.421	146.925	4
+I Love It	I Love It	91	Hilltop Hoods, Sia	61WSQC9C2YCvvXEbWUSSgf	225764	False	4	0.681	0.868	11	-6.241	0	0.091	0.00488	0	0.515	0.303	91.024	4
+Feel So Close - Radio Edit	Feel So Close	90	Calvin Harris	6Wtc1K3dvTIEsWU3rSIZXn	207880	False	47	0.7	0.923	7	-2.85	1	0.0324	0.000927	0.00826	0.904	0.0966	127.952	4
+Contact High	Moment Bends	89	Architecture In Helsinki	443KYV5uxBCM1k5BW6v3YV	218346	False	0	0.823	0.458	11	-4.354	1	0.0424	0.281	1.1e-06	0.904	0.066	115.985	4
+Shake It Out	Shake It Out	88	Florence + The Machine	5K5EW1r6bW6oLZwrBD75YN	278777	False	3	0.475	0.814	10	-4.398	1	0.045	0.00451	0	0.204	0.109	107.699	4
+Call It What You Want	Torches	87	Foster The People	3blNHpuMiMLzgUsxXvBip1	238786	False	1	0.641	0.967	5	-4.289	0	0.0601	0.0483	0.000276	0.725	0.442	113.017	4
+Helena Beat	Torches	86	Foster The People	1wv8znqSJDcyI60eRkSaRc	276173	False	0	0.67	0.876	5	-4.905	0	0.0536	0.0127	0.00302	0.736	0.109	126.968	4
+Tongue Tied	Tongue Tied	85	Grouplove	678jXJOHDRZJT8IBzwgQFb	218013	False	45	0.56	0.936	3	-5.835	1	0.0439	0.00847	0	0.371	0.161	112.96	4
+Even Though I'm A Woman	Seeker Lover Keeper	84	Seeker Lover Keeper	08B6MCt7Pe8YH6l4SJEwZU	248373	False	34	0.659	0.45	5	-10.307	1	0.0291	0.698	0.0304	0.213	0.113	121.347	4
+Jump into the Fog	The Wombats proudly present... This Modern Glitch	83	The Wombats	2igLxzAsBpZFfwra3RTyHK	232341	False	48	0.462	0.897	4	-7.168	1	0.0516	0.00214	0	0.671	0.254	157.948	4
+Promises	Promises	82	NERO	1kjvBYbo5SgzDVn42c1SuF	257359	False	2	0.488	0.942	9	-4.304	0	0.065	5.39e-05	0.00286	0.364	0.373	144.003	4
+Act Yr Age	Act Yr Age	81	Bluejuice	0pBVEfjoWDErPWlboJbRdR	200120	False	34	0.657	0.876	2	-3.651	1	0.0279	0.000204	0.0218	0.966	0.258	135.001	4
+Scary Monsters and Nice Sprites	Scary Monsters and Nice Sprites EP	80	Skrillex	4rwpZEcnalkuhPyGkEdhu0	243353	False	59	0.523	0.944	7	-3.581	0	0.0837	0.00336	0.557	0.324	0.119	139.997	4
+Air	Snakadaktal	79	Snakadaktal	2qH4CDWA7gq4gs0BLw8QMx	263293	False	33	0.569	0.456	0	-12.067	1	0.0258	0.15	0.00693	0.159	0.12	93.071	4
+Jungle	Full Hearts & Empty Rooms	78	Emma Louise	6cANrLZjvm0J5k05BaZu7B	202706	False	0	0.706	0.638	7	-8.91	0	0.0291	0.463	0.175	0.708	0.101	125.963	4
+1996	The Wombats proudly present... This Modern Glitch	77	The Wombats	2wfrWAfJ34NbQcl4c1DPC3	260400	False	50	0.493	0.913	8	-5.093	0	0.0315	0.000214	0	0.606	0.77	106.156	4
+Cameo Lover	Settle Down EP	76	Kimbra	5aFMroFqY8mrx4iELUkNwN	244040	False	4	0.65	0.928	1	-3.751	1	0.0523	0.133	0	0.63	0.117	127.064	4
+Techno Fan	The Wombats proudly present... This Modern Glitch	75	The Wombats	0VD69ricQ3Flm3apWr4FQS	239200	False	50	0.511	0.934	2	-5.504	1	0.139	0.00131	0	0.541	0.365	141.95	4
+Changed The Way You Kiss Me	Playing In The Shadows	74	Example	6A7rxFwKFYoSMVZQeBJE30	192840	False	1	0.576	0.809	4	-4.363	0	0.0411	0.00814	0.000228	0.213	0.118	127.016	4
+Owl Eyes - Pumped Up Kicks	triple j: Like A Version 7	73	Owl Eyes	1FMr2bOSOlQaKKhBICA8oo	159813	False	0	0.895	0.736	5	-6.089	0	0.309	0.193	2.71e-05	0.845	0.125	135.41	4
+Sing It (The Life Of Riley)	The Life Of Riley	72	Drapht	7hqKnQZR5AR5Zhvd6XrQs2	246781	True	44	0.662	0.921	11	-3.952	0	0.0587	0.127	0	0.555	0.769	99.978	4
+Bounce - Radio Edit	Bounce	71	Calvin Harris, Kelis	7qCsypEBairW1WF0pgu92o	222626	False	45	0.777	0.962	9	-2.113	0	0.0398	0.0364	0.214	0.762	0.663	127.95	4
+It's Nice to Be Alive	It's Nice to Be Alive	70	Ball Park Music	25b6JkmFpGYtsHUgMXF2Ii	211011	False	28	0.462	0.735	8	-3.95	1	0.0404	0.017	8.87e-05	0.849	0.0865	95.324	4
+L.I.F.E.G.O.E.S.O.N.	L.I.F.E.G.O.E.S.O.N.	69	Noah And The Whale	5Fm2FYQzlYYacTscqUwQtY	226653	False	3	0.608	0.744	4	-5.761	1	0.0366	0.214	0	0.608	0.304	81.996	4
+Otis	Otis (Explicit Version)	68	JAY Z, Kanye West, Otis Redding	0VonnpSpruTps40ypNRCjw	178226	True	0	0.761	0.645	7	-4.653	0	0.319	0.54	0	0.361	0.558	94.61	4
+I Feel Better	Making Mirrors	67	Gotye	1c1vQlMiJvtUxfN6dL5iin	198520	False	33	0.656	0.854	9	-2.63	1	0.0381	0.217	0	0.695	0.415	129.999	4
+Cigarettes (ft. Hue Blanes)	The Chase	66	Illy	5vpDCeKGP3eXGjzbidHkvj	236706	True	38	0.352	0.84	5	-7.916	1	0.252	0.0112	0	0.297	0.103	200.448	4
+No Light, No Light	Ceremonials (Deluxe Edition)	65	Florence + The Machine	3QbDZEkSkFYzSvi1xAE1z1	274853	False	0	0.428	0.783	0	-5.528	1	0.0516	0.0112	1.34e-05	0.183	0.529	131.931	4
+Cinema (Skrillex Remix) [feat. Gary Go]	Cinema (feat. Gary Go)	62	Benny Benassi	22OEutiG239e70rPkINd7c	307853	False	43	0.637	0.985	6	-3.809	0	0.184	0.00988	0.00857	0.374	0.0649	145.111	4
+Houdini	Torches	61	Foster The People	730WFDPboojsDQHBsKzbQP	202466	False	0	0.632	0.908	8	-3.511	1	0.0458	0.00762	0.000172	0.764	0.167	110.024	4
+Under Cover Of Darkness	Angles	60	The Strokes	5cI5EG0mUTSE2CmoAedaZA	235486	False	49	0.539	0.783	11	-3.355	1	0.0371	0.00415	0.332	0.575	0.0668	99.989	4
+What The Water Gave Me	Ceremonials (Original Deluxe Version)	59	Florence + The Machine	10H6mvk1cPPTzs3IHsHSHi	333400	False	54	0.483	0.572	0	-6.41	0	0.0316	0.00681	0.000416	0.187	0.112	124.112	4
+Itchin' on a Photograph	Itchin' On A Photograph	58	Grouplove	2zxzwhQ5lPXlPkBq1gXDtB	259506	False	18	0.501	0.877	6	-6.369	1	0.0484	0.137	0	0.268	0.309	96.993	4
+Speak Of The Devil	HyperParadise	57	Hermitude	6gkZ1kXL4NYCZBWjLQKwDm	202920	False	46	0.71	0.884	7	-4.178	0	0.0401	0.0914	0.00413	0.554	0.404	109.999	4
+Junk Of The Heart (Happy)	Junk Of The Heart	56	The Kooks	2jZgzSxNSg1hTCq0ewWHGJ	187253	False	64	0.604	0.894	2	-5.0	1	0.037	0.0212	0	0.901	0.0299	145.014	4
+Hanging On	You Are All I See (Deluxe Version)	55	Active Child	4PLOJDcUb3gwfMLoZPQt3O	326293	False	1	0.573	0.518	5	-9.009	0	0.0285	0.27	0.071	0.234	0.118	134.979	4
+Mary	Mary	54	Sparkadia	4irDjPieU738l9yEcRYY9X	244213	False	15	0.541	0.854	9	-5.183	0	0.0495	0.0104	5.96e-05	0.486	0.0397	114.483	4
+A.I.M. Fire!	The Experiment	53	Art vs Science	5Pxz3z0ey5S7bEcio7W6n8	239493	False	25	0.602	0.887	9	-3.122	1	0.0339	0.00148	0.00135	0.822	0.191	125.947	4
+Milk & Sticks	Moonfire	52	Boy & Bear	2GahrVlUbpzSyLarkahl3a	283600	False	0	0.343	0.854	0	-5.424	1	0.0498	0.000537	0.0465	0.236	0.111	111.014	5
+Part Time Believer	Moonfire	51	Boy & Bear	3rnLYA1NXasjtzDW1ToSS3	254693	False	1	0.598	0.57	9	-5.697	1	0.0263	0.0143	1.41e-05	0.385	0.13	113.555	4
+Money	Money	50	The Drums	0RxpQTBzaC3TZyquBFT5rc	233639	False	0	0.61	0.919	7	-6.565	1	0.0622	0.195	0.117	0.429	0.299	102.49	4
+Good Intent	Good Intent	49	Kimbra	4tXekVBCwyk5elmPUUie8i	212013	False	18	0.907	0.557	8	-9.417	0	0.0416	0.187	0.000224	0.805	0.36	122.007	4
+Holocene	Bon Iver	48	Bon Iver	05lBuZWQ2OhQuzoCSIkvUF	336613	False	65	0.379	0.306	1	-14.446	1	0.0305	0.942	0.323	0.157	0.123	147.902	4
+Turn Me On	Secret Rituals	47	The Grates	0quMYDxD03EailjlR7x1XB	206266	False	27	0.44	0.946	11	-5.195	1	0.069	0.000507	4.65e-05	0.283	0.0736	145.039	4
+Escapee	Moment Bends	46	Architecture In Helsinki	6uh5EIr5yiHqOuTlD0cDmS	178146	False	1	0.666	0.743	1	-4.478	1	0.0282	0.0366	1.12e-06	0.726	0.124	110.971	4
+China	China	45	Sparkadia	70bHvyVrWao40NxEuAHoIw	281413	False	14	0.538	0.547	1	-13.719	1	0.0292	0.0094	0.00151	0.647	0.0675	98.975	4
+Lay It Down	Don't Ever Want To Be Found	44	The Rubens	3UNS9Ct7sbTCnZhVqeqh6f	230870	False	19	0.562	0.783	2	-3.896	1	0.032	0.767	1.64e-06	0.437	0.0696	74.925	3
+I Follow Rivers	Wounded Rhymes	43	Lykke Li	336ZYcU6poBWi3s8yzRcAD	228466	False	61	0.599	0.533	9	-14.032	0	0.0472	0.475	0.00153	0.607	0.235	122.262	4
+Holy Moses	I Believe You Liar	42	Washington	2PTAqY6nIRnzZaG289yyrH	216853	False	0	0.666	0.782	7	-5.797	1	0.0436	0.0351	6.42e-06	0.415	0.0768	99.958	4
+Gabriel	Gabriel	41	Joe Goddard, Valentina	514X6u8lLKpDcQOEX0wUoG	336283	False	0	0.724	0.508	11	-10.491	0	0.059	0.0245	0.582	0.0629	0.108	122.06	4
+Lotus Flower	The King Of Limbs	40	Radiohead	4pld3u5X1kPCzU3U0xhNWS	300301	False	1	0.725	0.686	2	-8.796	0	0.0316	0.0904	0.449	0.661	0.0818	128.018	4
+Black Water Rising	Black Water Rising	39	Stonefield	0pevCIvKkKqJoj7rJH9fBc	194941	False	22	0.283	0.824	11	-5.446	0	0.0474	0.0504	0.00158	0.591	0.223	185.74	4
+Rope	Rope	38	Foo Fighters	0iYXPfnVgrK155NXTgntxo	259026	False	0	0.511	0.728	11	-4.874	0	0.037	2.52e-05	7.41e-05	0.541	0.0725	138.179	4
+Raiders	Raiders	37	Owl Eyes	7CPlkyDQvRnE8yByhqKUxz	206866	False	24	0.761	0.63	1	-6.813	1	0.0347	0.0451	0.132	0.686	0.093	125.985	4
+Re-Wired	Velociraptor!	36	Kasabian	1SsDbcjGHregkNfEjogXpm	284186	False	54	0.692	0.828	11	-6.061	0	0.0466	0.0131	6.51e-05	0.433	0.43	114.981	4
+Perth	Bon Iver	35	Bon Iver	6oeuEHxwfbqu5xIJrcbPzN	262079	False	50	0.491	0.457	0	-14.473	0	0.0456	0.86	0.444	0.0806	0.307	120.019	4
+Zimbabwe	Kitsuné Maison Compilation 12: The Good Fun Issue	34	New Navy	5r6WYmaWqsV6uFKl11siz5	194365	False	0	0.699	0.834	9	-5.839	0	0.0359	0.00735	0.000694	0.664	0.28	125.031	4
+Don't Sit Down 'Cause I've Moved Your Chair	Suck It and See	33	Arctic Monkeys	2tvABtsk0DHzirDa0nclsU	183506	False	1	0.434	0.912	9	-5.148	1	0.0451	0.0191	0.278	0.315	0.326	119.729	4
+Calgary	Bon Iver	32	Bon Iver	4otHnPszGCLCH6zB5yq5lw	250200	False	47	0.505	0.46	11	-11.549	1	0.0363	0.923	0.15	0.0768	0.634	119.959	4
+She's Like A Comet	Kosciuszko	31	Jebediah	0UZqLyiCqfEYNFQ9ioNC64	222893	False	40	0.455	0.937	6	-3.73	0	0.0433	0.000113	0.000279	0.676	0.123	145.003	4
+Arnold	Arnold / Sun Splash	30	Luke Million	6MeNtkNT4ENE5yohNvGqd4	249020	False	38	0.89	0.963	11	-1.941	0	0.0789	0.323	0.11	0.96	0.367	109.372	4
+Foreign Language - Flight Facilities Extended Mix	Foreign Language Remixes	29	Flight Facilities, Jess	1SWtzh0fKCtJsEr81LQBwK	359013	False	46	0.842	0.642	11	-8.362	0	0.0622	0.0766	0.000192	0.919	0.0232	124.009	4
+First of the Year (Equinox)	More Monsters and Sprites EP	28	Skrillex	5i7fZq3chLyCHo3VeB6goD	261517	False	67	0.429	0.948	5	-3.657	0	0.227	0.00711	0.0148	0.55	0.0812	115.785	3
+Bali Party (feat. NFA)	The Life Of Riley	27	Drapht, Nfa	2sdlDdQP4bUPxEqajTlAJw	183066	True	32	0.754	0.908	9	-4.295	0	0.163	0.0203	0	0.686	0.0889	128.049	4
+Shot Yourself In The Foot Again	Playing In The Shadows	26	Example	2zG4TZ8svAfITRul1jta7n	223866	False	0	0.583	0.782	11	-4.728	0	0.0379	0.00121	0	0.202	0.186	140.002	4
+Dreamshaker	Redcoats	25	Redcoats	48k0zDdfMbECUWcJ42rMLS	349106	False	18	0.304	0.808	9	-5.503	1	0.0616	0.0176	0.000578	0.107	0.451	86.566	4
+The Look	The English Riviera	24	Metronomy	27GHlIbddzX5qDalREVoDR	277653	False	5	0.638	0.535	9	-7.792	0	0.0415	0.623	0.0391	0.504	0.0837	84.947	4
+History's Door	History's Door	23	Husky	4BARbElZ2Y0FvtDDEa5hMe	232653	False	14	0.469	0.7	11	-8.724	0	0.0341	0.402	0.834	0.231	0.0999	129.973	4
+Wildfire	SBTRKT	22	SBTRKT, Little Dragon	2WMRd3xAb9FwXopCRNWDq1	201000	False	59	0.835	0.481	0	-7.188	0	0.387	0.0308	0.000501	0.34	0.0896	139.581	4
+The Truth	Soft Universe	21	PNAU	4in5e5RcFKbuFiktYJ3b9U	295137	False	21	0.463	0.935	2	-3.507	1	0.0458	0.00235	0	0.348	0.27	127.985	4
+Ritual Union	Ritual Union	19	Little Dragon	5uTjNzGKCQ50synrf9dWmT	210266	False	56	0.7	0.738	1	-4.398	1	0.0324	0.0381	0.00527	0.796	0.22	144.035	4
+Future Starts Slow	Blood Pressures	18	The Kills	2res3Ptlahsu1kh5XtFhu4	245000	False	1	0.676	0.746	1	-5.856	1	0.062	0.0128	0.00119	0.492	0.098	127.96	4
+Throw It Away	Falling & Flying	17	360, Josh Pyke	0KXLN9D1zwxG4Ltl42crTr	214146	False	24	0.76	0.628	5	-8.947	0	0.0629	0.0977	0	0.572	0.0602	100.044	4
+Gay Pirates - Radio Edit	Gay Pirates - EP	16	Cosmo Jarvis	69VVDgvAs0FuS6oDEPvqhw	235483	False	0	0.623	0.681	7	-6.799	1	0.0308	0.2	0	0.671	0.254	87.486	4
+Light All My Lights	Seeker Lover Keeper	15	Seeker Lover Keeper	7dIMIPwxaMTeKUyIbm7Zni	202200	False	26	0.686	0.384	5	-12.002	1	0.0314	0.716	0.00473	0.239	0.0941	139.912	4
+In Your Light	Making Mirrors	14	Gotye	6l8AiDMKX10Nu2IZJcPb4i	279013	False	32	0.619	0.924	0	-3.87	1	0.0384	0.00161	7.87e-06	0.744	0.156	101.913	4
+Shuffle	Shuffle	13	Bombay Bicycle Club	6Gcr0v9WVP57pWCphoU7FY	234286	False	1	0.634	0.934	7	-4.824	1	0.0298	0.298	0.00374	0.547	0.163	110.015	4
+Santa Fe	The Rip Tide	12	Beirut	6c9t15M38cWxyt3uLnLfD8	254386	False	4	0.728	0.671	11	-6.772	1	0.027	0.307	0.00574	0.959	0.109	131.72	4
+Make Some Noise	Hot Sauce Committee (Pt. 2)	11	Beastie Boys	7los2kGAFDGtvECeMJpa49	210586	False	33	0.714	0.885	2	-5.059	1	0.166	0.0191	7.01e-06	0.612	0.055	98.037	4
+Fragile Bird	Little Hell	10	City and Colour	0dJXwPlIY9GLOqFmvK39Zp	257226	False	1	0.456	0.719	9	-7.732	0	0.0409	0.0442	6.95e-06	0.657	0.081	202.104	4
+The Wilhelm Scream	James Blake	9	James Blake	4GC6X2HV0D754ETdPT7Cck	273840	False	1	0.546	0.291	7	-12.252	1	0.138	0.784	0.931	0.363	0.0894	169.96	4
+Two Way Street	Vows	8	Kimbra	6Mg8dQUAPNFF9FsBn9Qyb2	268906	False	26	0.658	0.662	1	-7.996	0	0.0347	0.107	2.02e-05	0.407	0.098	111.215	4
+Our Perfect Disease	The Wombats proudly present... This Modern Glitch	7	The Wombats	3MWxrle9cpyWpHxaoGKFFR	224348	False	45	0.565	0.872	6	-7.178	0	0.0399	0.000262	0	0.501	0.127	143.03	4
+Naked Kids - EP Version	Grouplove	6	Grouplove	1mFUoGxxEFRxTaNFRrfQi5	208613	False	29	0.605	0.534	11	-6.843	1	0.0324	0.137	0	0.391	0.136	104.978	4
+Machu Picchu	Angles	5	The Strokes	6QNnvkgk4DmRzosGBODltZ	209463	False	47	0.69	0.821	1	-5.282	1	0.0639	0.0128	0.159	0.867	0.0545	105.007	4
+Arlandria	Wasting Light	4	Foo Fighters	5TOYgNohZAFEPOtnchPhZS	267560	False	58	0.632	0.734	9	-5.179	1	0.0375	0.000128	1.05e-05	0.645	0.337	116.336	4
+Ni**as In Paris	Watch The Throne (Deluxe)	3	JAY Z, Kanye West	4Li2WHPkuyCdtmokzW2007	219333	True	6	0.788	0.859	1	-5.542	1	0.315	0.127	0	0.769	0.348	140.027	4
+The Suburbs	The Suburbs	1	Mr Little Jeans	7DhbRXMrdhblrRuM0DphOF	312053	False	29	0.365	0.551	11	-6.528	0	0.0774	0.164	0.0108	0.515	0.109	66.485	4

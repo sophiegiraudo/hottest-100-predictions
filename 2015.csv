@@ -1,0 +1,99 @@
+Name	Album	Rank	Artist	Track_id	Duration	Explicit	Popularity	Danceability	Energy	Key	Loudness	Mode	Speechiness	Acousticness	Instrumentalness	Valence	Liveness	Tempo	Time_Signature
+Hoops	Hoops	100	The Rubens	3AFJaScXQEyomXrJY7dVlc	158946	False	1	0.738	0.517	8	-5.82	0	0.0321	0.248	2.27e-05	0.772	0.468	96.037	4
+King Kunta	To Pimp A Butterfly	99	Kendrick Lamar	0N3W5peJUQtI4eyR6GJT5O	234693	True	74	0.884	0.657	6	-4.569	0	0.0977	0.00589	0	0.489	0.154	107.059	4
+Lean On (feat. MØ & DJ Snake)	Peace Is The Mission	98	Major Lazer, MØ, DJ Snake	4vS8VaBwJJV5Ry7UFIQuoo	176561	False	12	0.723	0.809	7	-3.081	0	0.0625	0.00346	0.00123	0.274	0.565	98.007	4
+The Less I Know The Better	Currents	97	Tame Impala	6K4t31amVTZDgR3sKmwUJJ	216320	True	82	0.64	0.74	4	-4.083	1	0.0284	0.0115	0.00678	0.785	0.167	116.879	4
+Let It Happen	Currents	96	Tame Impala	2X485T9Z5Ly0xyaghN73ed	467586	False	74	0.602	0.881	1	-5.875	0	0.0443	0.00462	0.0266	0.577	0.111	125.012	4
+The Trouble with Us	Work EP	95	Marcus Marr, Nick Murphy / Chet Faker	3fuQAfCohSKnHYxGQtXLWC	222066	False	2	0.828	0.744	2	-4.932	1	0.0646	0.338	0.000774	0.831	0.158	121.09	4
+Do You Remember	Jarryd James EP	94	Jarryd James	7i9mpmiDjJaemfUHDI7lBP	234426	False	48	0.662	0.334	1	-10.012	0	0.0584	0.169	0.000458	0.315	0.124	72.014	4
+The Buzz (feat. Mataya & Young Tapz)	Dark Night Sweet Light	93	Hermitude, Mataya, TAPZ	1E0EOstQRm7YMhFpmDJzaB	221786	False	58	0.726	0.583	0	-6.434	0	0.23	0.334	0.00135	0.491	0.122	140.943	4
+Can't Feel My Face	Beauty Behind The Madness	92	The Weeknd	6RsWqX8zABZLhZydXxEFOm	213520	False	20	0.702	0.77	9	-5.416	0	0.0482	0.124	0	0.593	0.103	107.951	4
+Magnets	Caracal (Deluxe)	91	Disclosure, Lorde	7nRmfGNhHKEEu5o8yFXLXt	199245	False	64	0.704	0.628	10	-7.882	0	0.162	0.0626	1.49e-06	0.654	0.103	92.005	4
+Never Be	Never Be	90	Meg Mac	1qSSbzRFLoYvRywhCWk1K9	253043	False	36	0.572	0.592	10	-8.195	0	0.0379	0.262	4.06e-05	0.271	0.0967	99.915	4
+You Were Right	You Were Right	89	RÜFÜS DU SOL	3qmaExOi8Ujx1s6ylv5kCX	238646	False	2	0.708	0.802	5	-5.427	0	0.0379	0.0122	0.00299	0.701	0.117	121.973	4
+Ocean Drive	Blasé Boys Club (Pt. 1)	88	Duke Dumont	5WsxrJcbgobPj4V7lhs8Qf	206320	False	40	0.688	0.711	8	-5.024	0	0.045	0.00684	0.000994	0.512	0.135	115.036	4
+Hotline Bling	Hotline Bling	87	Drake	6nmz4imkDcmtwMjocAzFSx	267023	False	12	0.896	0.623	2	-8.008	1	0.0571	0.00257	0.000258	0.585	0.039	134.962	4
+Like Soda	Like Soda	86	Violent Soho	417WJWutxwNZ3NqALiJLd5	241507	False	3	0.359	0.911	2	-3.791	1	0.0767	0.0145	0	0.252	0.0508	133.624	4
+Fire and the Flood	Dream Your Life Away (Deluxe Edition)	85	Vance Joy	7LI1qAsZiRaIpSA7FaWLXa	249382	False	54	0.6	0.79	5	-5.466	1	0.0365	0.026	0	0.345	0.0959	115.063	4
+Middle	Middle	84	DJ Snake, Bipolar Sunshine	2bKhIGdMdcqCqQ2ZhSv5nE	220573	False	11	0.564	0.737	9	-4.079	1	0.0414	0.0175	0	0.211	0.054	104.764	4
+Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)	Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)	83	Macklemore & Ryan Lewis, Grandmaster Melle Mel, Eric Nally, Grandmaster Caz, Kool Moe Dee	0lLDaAdXcjOQ7Mf2NXzXay	292593	True	9	0.828	0.609	1	-4.402	1	0.0694	0.0916	1.21e-06	0.707	0.291	109.725	4
+The Hills	Beauty Behind The Madness	82	The Weeknd	25khomWgBVamSdKw7hzm3l	242253	True	15	0.356	0.567	0	-7.011	0	0.0798	0.0861	0	0.109	0.137	135.553	5
+Mountain At My Gates	What Went Down	81	Foals	53L6A3I9vf7rgEZnMzx54E	244293	False	66	0.495	0.931	2	-5.336	0	0.0469	0.0025	0.0783	0.617	0.246	104.05	4
+Magnolia	The Positions	80	Gang of Youths	1G34Fz9A4HIpdniHzxEc1d	311906	True	0	0.429	0.665	6	-6.985	1	0.0327	0.618	0.0135	0.321	0.0985	92.33	4
+Keeping Score	Keeping Score	79	L D R U, Paige IV	1SqvnNuECvid6XdiJ9OCH5	182950	False	49	0.629	0.618	5	-5.51	0	0.0918	0.0245	0	0.644	0.0938	92.071	4
+Embracing Me	Embracing Me	78	SAFIA	22h6zs0K7k5rzXl1UnvCrI	231041	False	0	0.716	0.681	2	-5.144	1	0.073	0.4	0	0.167	0.108	109.967	4
+Some Minds (feat. Andrew Wyatt)	Some Minds (feat. Andrew Wyatt)	77	Flume, Andrew Wyatt	6kgc2yup9oyZJg7CzEw4ao	263764	False	3	0.263	0.555	4	-6.884	0	0.0446	0.316	5.78e-05	0.191	0.128	79.783	4
+Shine On	Shine On	76	The Amity Affliction	5jmyQBmDeNwGbL9iC9nWsQ	225311	False	46	0.48	0.973	10	-2.586	0	0.092	0.0154	0	0.495	0.451	94.332	4
+I Know There's Gonna Be (Good Times)	In Colour	75	Jamie xx, Young Thug, Popcaan	6393Du1axGG1NvAMq0OcfU	213622	True	59	0.458	0.597	11	-9.919	0	0.22	0.12	0	0.484	0.477	89.455	4
+Young	Vallis Alps	74	Vallis Alps	3u4rIcRR7gSoJdkJIx9zpu	324122	False	62	0.584	0.384	3	-12.144	0	0.0675	0.72	0.288	0.184	0.0964	93.981	4
+Like An Animal	Like An Animal	73	RÜFÜS DU SOL	0vOTm7sdZmAc59nZYjTqtU	241677	False	2	0.705	0.754	9	-6.27	0	0.0301	0.029	0.000197	0.401	0.0917	120.004	4
+Greek Tragedy	Glitterbug (Deluxe Version)	72	The Wombats	28C4nmrd7BTu0XbOmaTHZr	209557	False	56	0.515	0.869	11	-4.732	1	0.0672	0.00257	2.01e-06	0.452	0.21	93.24	4
+Say My Name	Songs to Sweat to	71	Peking Duk, Benjamin Joseph	3vawSGtTPXSU3ICUuxVww1	187533	False	32	0.478	0.635	8	-6.601	0	0.0567	0.179	0	0.595	0.644	174.021	4
+Loud Places	In Colour	70	Jamie xx, Romy	0Sl8C9oeS3b5Kv9bSvTPDr	283066	False	63	0.646	0.631	8	-10.748	0	0.0436	0.00462	0.288	0.167	0.122	109.02	4
+Leave A Trace	Every Open Eye	69	CHVRCHES	01DidSmPasiXdPhDVuaULL	237481	False	23	0.587	0.736	9	-5.824	1	0.0948	0.015	8.81e-05	0.177	0.148	99.614	4
+Long Loud Hours	Long Loud Hours	68	Urthboy	6aSrzS4OLv65IkCssOnfJF	218765	True	0	0.404	0.548	6	-6.772	1	0.221	0.136	7.54e-06	0.296	0.1	169.134	4
+Eventually	Currents	67	Tame Impala	5M4yti0QxgqJieUYaEXcpw	318591	False	69	0.424	0.615	9	-6.217	0	0.0325	0.0158	0.000389	0.155	0.0844	77.935	4
+Counting Sheep	Counting Sheep	66	SAFIA	5HmvywOT0JnXt4mYOjcw3E	173081	False	0	0.777	0.524	8	-6.549	1	0.037	0.0135	8.38e-06	0.617	0.129	94.959	4
+All My Friends (feat. Tinashe & Chance the Rapper)	All My Friends (feat. Tinashe & Chance the Rapper)	65	Snakehips, Tinashe, Chance the Rapper	6TaqooOXAEcijL6G1AWS2K	229746	True	74	0.689	0.521	0	-5.845	1	0.132	0.119	8.41e-05	0.178	0.108	95.055	4
+Alright	To Pimp A Butterfly	64	Kendrick Lamar	3iVcZ5G6tvkXZkZKlMpIUs	219333	True	71	0.796	0.766	7	-5.974	1	0.238	0.0742	0	0.558	0.0827	110.034	4
+Delilah	How Big, How Blue, How Beautiful (Deluxe)	63	Florence + The Machine	0fgSfUAnuJzzB8l8MdgRZg	293468	False	52	0.426	0.87	9	-3.821	0	0.0621	0.096	0	0.414	0.112	169.946	4
+Swear Jar	Swear Jar	62	Illy	5U3enbulsg5PWPDXldse3z	186237	True	44	0.692	0.632	10	-7.009	0	0.326	0.103	0	0.836	0.119	135.668	4
+Ship To Wreck	How Big, How Blue, How Beautiful (Deluxe)	61	Florence + The Machine	20NEld0MhrR4Zpgrf9brq8	234526	False	55	0.564	0.923	9	-3.843	0	0.0325	0.00147	0	0.587	0.277	141.991	4
+Puppet Theatre	Puppet Theatre	60	Claptone, Peter Bjorn and John	5qV9FP377FrAhu1UTJCXXP	254640	False	38	0.936	0.648	7	-6.72	1	0.0404	0.0753	0.0509	0.663	0.104	115.026	4
+Hold Me Down	BADLANDS (Deluxe)	59	Halsey	4U38hORPx8SsUAXGumsUYN	204785	False	64	0.677	0.744	1	-4.512	0	0.0882	0.279	0	0.531	0.119	145.928	4
+Pedestrian at Best	Sometimes I Sit and Think, And Sometimes I Just Sit	58	Courtney Barnett	7uoQRNx100em2FLLxnqym0	230560	False	1	0.479	0.854	11	-6.101	1	0.0405	4.61e-06	5.72e-05	0.535	0.372	136.067	4
+Something About You	Something About You	57	Hayden James	5n9DJWUiwuKuPE9sCVbQ0n	225181	False	60	0.861	0.602	2	-7.314	0	0.0617	0.369	0.0644	0.684	0.0751	114.978	4
+Throne	That's The Spirit	56	Bring Me The Horizon	0M3adYbGtyRHACP86dey1H	191520	False	67	0.426	0.888	0	-3.72	0	0.0987	0.000455	0	0.387	0.306	144.111	4
+Go	Born In The Echoes	55	The Chemical Brothers	2Xhd1kYKj2aee7JR3nIlRe	260696	True	49	0.751	0.897	1	-3.598	1	0.0468	0.00957	2.88e-05	0.482	0.329	119.97	4
+Dynamite (feat. Allday)	Dynamite (feat. Allday)	54	Asta, Allday	3jew7JFJ1cPETFf1Ma48pb	237491	False	30	0.79	0.758	5	-5.982	0	0.0557	0.0671	3.72e-05	0.901	0.0452	107.98	4
+Crushed	Ire	53	Parkway Drive	2BzEsfwqucjlBSFu8s74sz	276222	False	57	0.404	0.964	2	-4.569	1	0.115	0.00228	5.16e-06	0.24	0.0888	84.996	4
+Too Much Time Together	Gracetown	52	San Cisco	0LcVvD1iPjqkfVdWd7ClfA	169996	False	56	0.563	0.841	2	-5.35	1	0.0519	0.263	0.000258	0.954	0.0751	154.876	4
+Deception Bay	Deception Bay – Single	51	Boo Seeka	0YOZP4bdbohmzyHt5TVgUK	189033	False	41	0.483	0.801	8	-5.253	1	0.0343	0.0305	0.00876	0.302	0.104	185.967	4
+Clearest Blue	Every Open Eye	50	CHVRCHES	3aUfWeMesfVs2niopKjNxV	233769	False	19	0.641	0.832	1	-5.873	1	0.0333	0.017	0.00186	0.167	0.0648	123.03	4
+Cream On Chrome	Cream On Chrome	49	Ratatat	34v7Zs9a64h1xC3PWrmypP	235362	False	52	0.79	0.692	7	-4.704	0	0.0532	0.0275	0.369	0.82	0.528	100.264	4
+Monday	Monday	48	Matt Corby	6F5SQwp6UjEA99hnevuF6w	247893	False	23	0.299	0.522	5	-6.394	0	0.0571	0.874	0.00656	0.229	0.07	89.757	4
+Working For It - Bonus Track	Genesis Series	47	ZHU, Skrillex, THEY.	0P6RjFd2HgG2AXJadQuGfE	231813	True	61	0.776	0.715	5	-6.587	0	0.0505	0.0971	0.0131	0.502	0.247	99.951	4
+Multi-Love	Multi-Love	46	Unknown Mortal Orchestra	0PEXp5yk0sx9dJ8JzwvjJb	250800	False	62	0.784	0.506	3	-5.243	0	0.0403	0.571	0	0.545	0.139	120.141	4
+Alive	Alive	45	Sia	05cXQMJcrM9msUYu11mOrs	263893	False	56	0.32	0.752	6	-4.91	0	0.056	0.289	0.000101	0.392	0.102	98.88	4
+Foolish	Yuck	44	Alpine	5FRWCnUzjsaN0rlpjaSi8o	202614	False	30	0.674	0.678	1	-5.953	0	0.0331	0.033	0.0165	0.802	0.0895	94.014	4
+Vice Grip	Ire	43	Parkway Drive	0AHHDAHFRaT82UVw5fMr1R	263586	False	58	0.48	0.988	11	-3.229	0	0.0838	3.17e-05	0.00432	0.252	0.389	124.041	4
+Run	Run	42	Alison Wonderland	5uDZdW4e9QwMSIWbzY7oD2	218783	False	51	0.508	0.779	0	-5.763	1	0.0333	0.00389	0.02	0.109	0.398	145.02	4
+Kamikaze	Kamikaze	41	MØ	6TjP1C3sGQH1jBfzUXfcMg	214240	False	62	0.663	0.878	1	-3.195	0	0.0646	0.0368	3.39e-06	0.704	0.328	158.035	4
+'Cause I'm A Man	Currents	40	Tame Impala	2O99aywAVBhaPrsiJ6zbSS	241986	True	66	0.547	0.695	9	-4.969	1	0.0337	0.108	0.00301	0.641	0.14	144.684	4
+Omen - Radio Edit	Omen (Radio Edit)	39	Disclosure, Sam Smith	78EQ5LZGgviMU9k0zrqv1r	196817	False	68	0.615	0.781	5	-4.838	0	0.203	0.111	0	0.687	0.373	105.967	4
+Walk the Wire	Limit of Love	38	Boy & Bear	1uT5X0suLjdxnmom0YYJ6N	179120	False	37	0.535	0.895	5	-4.985	1	0.042	0.00136	0.000449	0.703	0.101	139.477	4
+L$D	AT.LONG.LAST.A$AP	37	A$AP Rocky	4S7YHmlWwfwArgd8LfSPud	238306	True	73	0.598	0.252	2	-15.086	1	0.0647	0.193	0.138	0.0352	0.0992	120.06	4
+Don't Wanna Fight	Sound & Color	36	Alabama Shakes	1xmctspTzQxisNXKY6Gxf6	232530	False	29	0.597	0.915	10	-3.298	0	0.152	0.235	0.0865	0.555	0.106	100.444	4
+M.O.B.	Switch Tape EP	35	Tkay Maidza	6ReynGbkpoFMPolYKaXBuv	194275	False	0	0.692	0.852	10	-3.454	0	0.0478	0.285	0	0.429	0.194	137.95	4
+Give Me a Try	Glitterbug (Deluxe Version)	34	The Wombats	0gohFCf3LlExQw41BfajZg	228470	False	48	0.623	0.922	1	-3.013	1	0.0534	0.000815	0	0.681	0.069	135.976	4
+Shutdown	Shutdown	33	Skepta	2RmherZdlF6lXsA47ELmY9	188938	True	10	0.656	0.746	7	-4.716	1	0.314	0.126	0	0.824	0.508	104.044	3
+Forces	Forces	32	Japanese Wallpaper, Airling	7nujumxQPclRwwRuoCeLBB	252315	False	0	0.597	0.754	4	-7.264	1	0.028	0.287	0.00614	0.591	0.264	156.014	4
+What Kind Of Man	How Big, How Blue, How Beautiful (Deluxe)	31	Florence + The Machine	1w9ta1CvXlJPRXh6Py2Mto	216176	False	53	0.313	0.635	11	-4.676	0	0.0431	0.0229	0	0.224	0.129	114.776	4
+Flesh without Blood	Flesh without Blood	30	Grimes	1JYtlIFdYms6nZNf2K7Yys	264523	False	0	0.481	0.965	8	-2.993	1	0.0875	0.000904	0.000727	0.66	0.476	155.938	4
+Anchor	Anchor EP	29	Birds Of Tokyo	47LIGSdsi3UYQ47UZB6zuL	216096	False	12	0.597	0.716	5	-4.771	1	0.0275	0.0883	0	0.554	0.14	87.979	4
+Once - Radio Edit	Once	28	Ngaiire	2Al2wz3A4fRv2m5mmO2Jxd	267212	False	0	0.76	0.48	11	-10.455	0	0.0371	0.664	0.00172	0.12	0.105	104.995	4
+Powerful (feat. Ellie Goulding & Tarrus Riley)	Peace Is The Mission (Extended)	27	Major Lazer, Ellie Goulding, Tarrus Riley	3rjgkh9JJZoLbPCBfJWXqe	206327	False	0	0.598	0.792	11	-4.043	0	0.0478	0.121	0	0.732	0.158	97.479	3
+Elevator Operator	Sometimes I Sit and Think, And Sometimes I Just Sit	26	Courtney Barnett	5loHxmUIGJEJCWKZcHPLuE	194946	False	0	0.682	0.769	1	-7.197	1	0.0324	0.000766	0.00898	0.769	0.36	131.693	4
+Suddenly	Nothing Touches Me	25	British India	4M4NnyxMY2Y0QTaUbcdFiZ	267225	False	46	0.532	0.828	8	-5.081	1	0.0422	0.0687	5.78e-05	0.578	0.111	126.811	4
+Lay Down	Lay Down	24	DMA'S	61o0JHZXzxFu3pNCueq33v	193042	False	0	0.329	0.832	4	-2.208	0	0.0383	0.00177	7.77e-05	0.461	0.128	78.531	4
+Weathered	Weathered	23	Jack Garratt	18pfz9Q3vmxNPv6rxc695W	274174	False	0	0.367	0.497	0	-7.311	1	0.0436	0.0885	6.33e-05	0.291	0.0792	146.63	4
+Wolves	Wolves	22	The Cat Empire	6YIs6ujbDoYBJcEQoUvqLq	202840	False	28	0.659	0.9	7	-5.461	1	0.0426	0.125	0.127	0.856	0.347	121.244	4
+Everyday	AT.LONG.LAST.A$AP	21	A$AP Rocky, Rod Stewart, Miguel, Mark Ronson	2N3U8uTYhjX2KwGT0pf5x0	260986	True	73	0.394	0.661	4	-8.684	1	0.193	0.0101	0	0.335	0.343	149.822	4
+Depreston	Sometimes I Sit and Think, And Sometimes I Just Sit	20	Courtney Barnett	4bEoMybiLPYgavb9CsvxF9	292853	False	2	0.692	0.467	0	-11.577	1	0.0336	0.0246	1.43e-05	0.422	0.059	126.407	4
+Down To Earth - Radio Edit	Down To Earth (Remixes)	19	Flight Facilities	6gWPvx3OFhoFlyIJPZ5miX	190812	False	2	0.735	0.622	1	-5.526	1	0.0316	0.0122	0.465	0.417	0.101	121.953	4
+Heart Attack - Radio Edit	Heart Attack (Remixes)	18	Flight Facilities, Owl Eyes	0sbTE4yPkvJWJ7twcTBqrR	224516	False	4	0.707	0.555	8	-10.484	1	0.0606	0.374	0.0728	0.173	0.124	123.967	4
+Happy Song	That's The Spirit	17	Bring Me The Horizon	1yYE8EyuIV0rrvQ1bA2Fyf	239386	True	65	0.295	0.924	5	-3.407	1	0.0678	4.02e-05	0.00462	0.219	0.377	171.941	4
+begin again	another eternity	16	Purity Ring	1Bildp7NM39gR3smbMh8W1	217201	False	54	0.598	0.565	11	-7.764	0	0.0471	0.0108	0.0471	0.328	0.307	92.126	4
+Party Machine	Party Machine	15	The Bennies	2OVCmSlvv0gwLypyjRGh3P	164948	True	22	0.589	0.889	9	-4.446	1	0.0545	0.00713	7.92e-05	0.619	0.672	164.963	4
+High By The Beach	Honeymoon	14	Lana Del Rey	7g3htkaLz4ETFn0cifwM3y	257573	True	66	0.536	0.486	11	-11.067	0	0.0346	0.244	0.00788	0.0968	0.12	131.988	4
+Gemini (feat. George Maple)	Gemini (feat. George Maple)	13	What So Not, George Maple	0K1glOFXQzLm3KxjJY5rtK	270257	False	57	0.481	0.687	7	-6.748	0	0.0699	0.238	0.11	0.188	0.107	145.971	4
+Be Your Shadow	Glitterbug (Deluxe Version)	12	The Wombats	0R72jZmpO4fK6wlFLGOkx5	215693	False	43	0.636	0.965	2	-2.897	0	0.064	0.0251	1.12e-06	0.551	0.146	125.043	4
+No One (feat. Thelma Plum)	XXIV	11	Golden Features, Thelma Plum	1zBbSOe2xX6zeBCSNntXrX	295056	False	50	0.766	0.549	6	-10.578	1	0.0778	0.18	0.069	0.255	0.209	119.943	4
+Indian Summer	Indian Summer	10	Jai Wolf	42nkVBjWYVhiijbof5zySm	248470	False	64	0.507	0.824	6	-2.501	1	0.0526	0.0246	0.0451	0.0394	0.0848	84.992	4
+Ghost	BADLANDS (Deluxe)	9	Halsey	5dcYoYFAXh0f0qI05AoufB	153656	False	64	0.57	0.606	7	-8.085	1	0.129	0.0529	0.000727	0.212	0.134	95.038	4
+Nobody Really Cares If You Don't Go to the Party	Sometimes I Sit and Think, And Sometimes I Just Sit	8	Courtney Barnett	69QTL6M33YQMD8bn1nomZZ	166080	False	1	0.421	0.93	9	-5.133	1	0.0741	1.64e-05	0.128	0.574	0.341	136.688	4
+Rumour Mill (feat. Anne-Marie & Will Heard)	We The Generation	7	Rudimental, Anne-Marie, Will Heard	6vV9NyQIsWMQ08KOWMSp3a	243783	False	53	0.842	0.534	10	-8.547	0	0.171	0.147	7.77e-05	0.761	0.261	119.976	4
+Twilight Driving	Oh Inhuman Spectacle	6	Methyl Ethel	29exeqiLt6cuyA9MIqbVOS	239356	False	51	0.599	0.744	9	-6.502	0	0.0298	0.123	0.0128	0.585	0.365	124.034	4
+Be Together (feat. Wild Belle)	Peace Is The Mission	5	Major Lazer, Wild Belle	2UgVitE8eyXgo9x085v5Km	233010	False	1	0.497	0.627	6	-6.141	0	0.0319	0.00142	0	0.193	0.619	79.93	4
+True Friends	That's The Spirit	4	Bring Me The Horizon	1KTJmfwrk5pYqsi9mkY3nT	232320	False	64	0.419	0.938	7	-3.12	1	0.0837	0.000683	0	0.333	0.114	160.151	4
+Hell Boy	Strange New Past	3	Seth Sentry	1FmFG7nDEniH3fc4HNqc64	204000	True	38	0.726	0.792	6	-3.395	1	0.169	0.0195	0	0.492	0.0849	140.102	4

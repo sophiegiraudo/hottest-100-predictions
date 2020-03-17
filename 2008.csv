@@ -1,0 +1,94 @@
+Name	Album	Rank	Artist	Track_id	Duration	Explicit	Popularity	Danceability	Energy	Key	Loudness	Mode	Speechiness	Acousticness	Instrumentalness	Valence	Liveness	Tempo	Time_Signature
+Sex On Fire	Only By The Night	100	Kings of Leon	7aOoPSmSSkWKnh3zi908ty	203346	False	6	0.542	0.905	9	-5.653	1	0.054	0.00172	0.0104	0.374	0.136	153.398	4
+Electric Feel	Oracular Spectacular	99	MGMT	3FtYbEfBqAlGO46NUDQSAt	229640	False	76	0.763	0.807	1	-3.714	1	0.035	0.0714	0.28	0.559	0.348	103.038	3
+Use Somebody	Only By The Night	98	Kings of Leon	3a1eJRucXOtKZxNx5BVXMt	230760	False	2	0.276	0.715	0	-5.356	1	0.0432	0.00552	0.000417	0.173	0.201	137.028	4
+Walking On A Dream	Walking On A Dream	97	Empire of the Sun	0mBkoM8r7KAQzZij5swTUL	198440	False	21	0.87	0.699	5	-5.541	0	0.0459	0.245	6.76e-06	0.726	0.0588	126.967	4
+Kids	Oracular Spectacular	96	MGMT	1jJci4qxiYcOHhQR247rEU	302840	False	75	0.451	0.931	9	-3.871	1	0.0719	0.00076	0.0049	0.172	0.361	122.961	4
+Talk Like That	Apocalypso (International)	95	The Presets	5gOJ1pWOB4mk7mZ5RUj5nJ	220543	False	2	0.568	0.942	6	-3.486	0	0.0313	0.00121	6.73e-05	0.863	0.23	135.009	4
+The Festival Song	A Mind Of My Own	94	PEZ, 360, Hailey Cramer	2aBagLgXpbHv0GFS2WTGQv	263560	True	1	0.744	0.628	1	-5.944	0	0.217	0.362	0	0.821	0.145	85.249	4
+This Boys In Love	Apocalypso	93	The Presets	40Pq8xmzshZXTgLDV4Stlt	250200	False	30	0.508	0.968	10	-2.698	0	0.0418	0.00191	0.00221	0.942	0.339	122.968	4
+That's Not My Name	We Started Nothing	92	The Ting Tings	0GrrLYCH8u81aENhC8FBF4	310573	False	52	0.755	0.901	9	-3.152	1	0.0893	0.0451	0.0373	0.959	0.363	145.042	4
+Jimmy Recard	Brothers Grimm	91	Drapht	2L2f3Z8amWm4SN4yFjpy8b	214226	True	2	0.527	0.828	1	-4.781	0	0.311	0.125	0	0.651	0.686	96.652	4
+My Delirium	Ladyhawke (International Version)	90	Ladyhawke	48Ok2vJ3T1IhAEXbvEH5Vw	254800	False	29	0.459	0.824	9	-3.824	0	0.0465	0.000717	0.000582	0.425	0.471	150.03	4
+Embrace	PNAU	89	PNAU	5dURdbd3ehxZ2V7yxOMoFN	329773	False	0	0.64	0.953	6	-4.047	0	0.0407	0.00282	0.000453	0.394	0.221	127.983	4
+The King is Dead	Summerland	88	The Herd	0CX3U3R4YgdoEA75UKOjX1	251506	True	49	0.754	0.639	9	-6.59	1	0.0322	0.158	0	0.684	0.103	100.033	4
+No Sex For Ben	The Music of Grand Theft Auto IV	87	The Rapture	2P8xgessXZqmrM7IKif641	245916	False	41	0.701	0.948	5	-4.321	1	0.116	0.0198	0.00282	0.932	0.299	101.323	4
+Lights & Music	In Ghost Colours	86	Cut Copy	2dngx6srtqsxvyh7oGV8FM	277360	False	56	0.612	0.939	10	-4.206	0	0.0412	0.0763	0.119	0.543	0.749	125.981	4
+You Don't Know Me (featuring Regina Spektor) - Explicit Album Version	You Don't Know Me (featuring Regina Spektor)	85	Ben Folds	7jJzEGBbPNYsSNThuFVYOK	189693	True	0	0.807	0.458	7	-4.989	1	0.0419	0.443	2.44e-06	0.829	0.0827	87.081	4
+Dance Wiv Me - Radio Edit	Dance Wiv Me [feat. Calvin Harris and Chrome]	84	Dizzee Rascal, Calvin Harris, Chrome	73eHn7vAHSiHftjYkvRUMy	203571	False	23	0.887	0.66	11	-6.116	1	0.0419	0.0486	1.14e-06	0.693	0.123	112.01	4
+Time to Pretend	Time to Pretend	83	MGMT	3Q9FA2LP9Abih9xkFeNb6U	261000	True	35	0.438	0.94	2	-3.249	1	0.0452	8.74e-05	0.0777	0.421	0.3	100.99	3
+Business Time	Flight Of The Conchords	82	Flight of the Conchords	4NEHlq4GzG6VoLWpho0pIB	245160	False	1	0.823	0.783	5	-7.839	0	0.0744	0.0761	0.00754	0.866	0.107	95.986	4
+Skinny Love	For Emma, Forever Ago	80	Bon Iver	7fXyuQqEBwpKtCa8PomO7B	238520	False	11	0.59	0.26	4	-14.065	0	0.0484	0.85	4.59e-06	0.112	0.117	77.118	4
+White Noise	White Noise	78	The Living End	4jTzmDg3dw1ZTyxtHIBxE4	224400	False	29	0.363	0.965	7	-4.737	1	0.0851	0.000485	0.000436	0.387	0.14	141.029	4
+Closer	Only By The Night	77	Kings of Leon	3Z8cX6y0SeJIsI3yxoaQ8K	237480	False	2	0.398	0.768	11	-4.624	0	0.0392	0.469	2.02e-05	0.235	0.106	108.685	5
+Never Miss A Beat	Off With Their Heads	76	Kaiser Chiefs	0bXhjlgUddDlJzHOeVM4Tq	187320	False	51	0.499	0.899	0	-3.994	1	0.0382	2.19e-05	0.174	0.449	0.651	156.017	4
+Paris Is Burning	Ladyhawke (International Version)	75	Ladyhawke	5E7yzlbBjJNK8M8oeSwcPf	226250	False	19	0.594	0.891	9	-3.444	0	0.051	0.0227	0	0.747	0.144	122.976	4
+The Lighthouse Song	Chimney's Afire	74	Josh Pyke	2zvUTfefqjDKGqkBuOawB2	224920	True	38	0.578	0.39	0	-8.638	1	0.0265	0.758	0.000527	0.252	0.107	142.045	4
+That Beep	Moment Bends	73	Architecture In Helsinki	4NV43goHjlGhDaO0HadiQN	225413	False	0	0.932	0.654	5	-5.618	1	0.0524	0.278	0.0905	0.806	0.107	116.043	4
+Make You Happy	Chimney's Afire	72	Josh Pyke	3mw87P6YW3956SMm7d9UfM	175960	False	39	0.585	0.759	1	-6.328	1	0.029	0.0107	0.00151	0.689	0.195	135.976	4
+Oxford Comma	Vampire Weekend	71	Vampire Weekend	2Ml0l8YWJLQhPrRDLpQaDM	195733	True	60	0.694	0.711	0	-4.237	1	0.0517	0.114	0.00124	0.974	0.0433	119.516	4
+Bird of Feather	Sharing Space	70	Cog	25ljdxK18Lgv3SJuoAqY2R	223786	False	0	0.482	0.943	5	-5.508	0	0.059	0.00457	0.000871	0.482	0.331	155.557	4
+A-Punk	Vampire Weekend	69	Vampire Weekend	1595LW73XBxkRk2ciQOHfr	137760	False	67	0.548	0.816	2	-4.478	1	0.0499	0.0104	0.0543	0.857	0.152	174.993	4
+Always Where I Need To Be	Konk	68	The Kooks	6gGSSrKMiV2yec1DrqGhhy	161720	False	56	0.331	0.961	11	-4.627	1	0.0663	0.000146	0	0.882	0.322	168.355	4
+Burn Bridges	Teeth Lost, Hearts Won	67	The Grates	7LcFWWhh8PxKw9u5Dh8FAs	146160	False	0	0.607	0.92	4	-3.03	1	0.0687	0.00616	0	0.627	0.14	141.906	4
+Dig, Lazarus, Dig!!!	DIG, LAZARUS, DIG!!!	66	Nick Cave & The Bad Seeds	6Cs5VBjKW7G5AbXOhnIhqe	251813	False	0	0.637	0.844	11	-4.248	1	0.04	0.148	0	0.816	0.226	112.62	4
+I Will Possess Your Heart	Narrow Stairs	65	Death Cab for Cutie	77vYwoC7e3pVoPq8BA9CuL	505773	False	56	0.605	0.619	9	-8.971	0	0.0261	0.423	0.313	0.578	0.0732	133.074	4
+I Said I'm Sorry	The Cool List	64	British India	3Ue5BreWBKu8hs3SufFw1D	215986	False	0	0.503	0.751	1	-5.397	0	0.0279	0.000101	0	0.16	0.0538	126.783	4
+Something Is Not Right With Me	Loyalty To Loyalty	63	Cold War Kids	1MWimwvAZ8Wtl5RRwciYzJ	142533	False	0	0.552	0.639	9	-6.295	1	0.0565	0.022	1.85e-06	0.615	0.141	120.676	4
+I Like You So Much Better When You`re Naked	I like You So Much Better When You're Naked	62	Ida Maria	05ApGZbcNK2VbZM1fBc7Ua	192213	False	0	0.494	0.94	0	-3.36	1	0.0798	0.00164	0	0.749	0.108	169.957	4
+Eye Of The Storm	Flying Colours	61	Bliss n Eso	5pEK6FkbuG0nSX1o4kNtkh	207000	True	42	0.82	0.83	10	-5.694	0	0.14	0.266	0	0.45	0.0653	103.592	4
+Jungle Drum	Me And Armini	59	Emilíana Torrini	7BXToqZFtclAj6mshYWena	133466	False	53	0.636	0.881	2	-5.376	1	0.0758	0.134	0.00952	0.845	0.074	118.237	4
+Ghosts	Alas I Cannot Swim	58	Laura Marling	3LHg768dEKqJKht2uPTlVR	179960	False	53	0.463	0.368	9	-11.546	1	0.048	0.376	0	0.75	0.149	141.974	4
+Flippers	Parlez-Vous Francais / Flippers	57	Art vs Science	4AQH6THZjwVioS6wQn8994	214227	False	5	0.637	0.838	5	-4.116	1	0.0395	0.000172	0.0421	0.411	0.126	124.886	4
+The Fear	It's Not Me, It's You	55	Lily Allen	4UJt3Ipg45AqLdaSvejmNg	206154	False	45	0.656	0.823	10	-6.971	1	0.0411	0.408	7.16e-05	0.495	0.118	134.005	4
+Coca Cola	Listen To	54	Little Red	7dUxoO6FbJSDMrMaJFzFN5	142573	False	17	0.684	0.675	7	-7.179	1	0.0339	0.229	0	0.97	0.124	103.87	4
+Stay With Me Bright Eyes	Engineering The Soul	53	Something With Numbers	1NxUCJQpjHX48ewdBadfUK	244040	False	0	0.475	0.978	11	-2.618	0	0.11	0.000153	0.0178	0.619	0.342	165.976	4
+Young Love (feat. Laura Marling)	Twenty One	52	Mystery Jets, Laura Marling	5Bp3OmGILMam5w6KnafdKY	202293	False	53	0.63	0.942	4	-5.186	1	0.0869	0.141	2.12e-06	0.753	0.0958	136.155	4
+Breakout	Fish Out of Water	51	Ash Grunwald	2qOHFoSiQYVBYzC7OkdUer	267013	False	0	0.644	0.796	11	-5.975	1	0.0542	0.0392	0.385	0.528	0.0989	120.073	4
+Human	Day & Age	49	The Killers	5mhUPDWQH3s544WCsa0r9w	245360	False	20	0.547	0.837	10	-7.085	1	0.0676	0.00112	0.000624	0.568	0.0937	135.47	4
+Window And The Watcher	Final Conversation Of Kings	48	The Butterfly Effect	4uu8nNRDLKoGvqHhu370Gd	200586	False	0	0.258	0.923	5	-5.102	1	0.154	0.00157	1.73e-06	0.461	0.146	188.422	4
+Baby	PNAU	47	PNAU	2C0SH7ttjzDuLtLjA7KpDo	165027	False	0	0.659	0.944	8	-2.321	0	0.0371	0.039	2.34e-05	0.736	0.174	127.988	4
+Your Party	La Cucaracha	46	Ween	7477m1ePfKMa9Ic7XoQjMX	248146	False	38	0.639	0.662	4	-6.326	0	0.0336	0.173	1.49e-05	0.778	0.347	159.971	4
+Yippiyo-Ay	Apocalypso	45	The Presets	0yCU7Z53XepvzqwIq4Z9lz	271693	False	19	0.708	0.938	4	-3.954	0	0.0566	0.0554	0.00234	0.413	0.104	119.997	4
+L.E.S Artistes	Santigold	44	Santigold	1SvIUtl5QuOTJhKNVikt6m	206933	False	48	0.862	0.797	4	-2.006	1	0.0339	0.0339	4.03e-06	0.775	0.0841	117.993	4
+Cape Cod Kwassa Kwassa	Vampire Weekend	43	Vampire Weekend	7q4MJZSiqPC16dbhQWxugv	214706	True	56	0.852	0.518	2	-7.155	1	0.0413	0.832	0.0893	0.794	0.14	105.058	4
+The Most Beautiful Girl (In The Room)	Flight Of The Conchords	41	Flight of the Conchords	3audDTxA2DcK1qqHA1pARW	242160	False	1	0.814	0.516	9	-9.419	1	0.236	0.676	0	0.708	0.114	144.032	4
+The Sea Is Rising	Flying Colours	40	Bliss n Eso	115KhJ3aFGXHZqytKFDC3e	335866	True	50	0.672	0.846	5	-6.364	0	0.392	0.13	0	0.623	0.822	86.017	4
+Sleepwalking	Be The Twilight	39	Faker	2pCbHI2kW5LTMpkp43Juhm	301600	True	26	0.641	0.805	9	-4.846	0	0.0373	0.00505	1.24e-05	0.646	0.131	118.051	4
+2020	Summerland	38	The Herd	5ldVQ1BpT1TIvwYMUX8tbw	227960	True	36	0.773	0.684	4	-4.647	0	0.03	0.12	0	0.926	0.0827	91.967	4
+Dawn Of The Dead	You Have No Idea What You're Getting Yourself Into	37	Does It Offend You, Yeah?	7a6PDOMkHcYfomPyUtwMKc	207653	False	0	0.562	0.93	11	-3.201	1	0.0446	0.000205	0.00478	0.705	0.121	126.02	4
+White Winter Hymnal	Fleet Foxes	36	Fleet Foxes	4LKiFDUTwsqX8K3Up8I8K0	147026	False	5	0.623	0.524	6	-9.031	0	0.0271	0.444	0	0.611	0.333	124.915	4
+Farewell Rocketship	The Long Now	35	Children Collide	0lJE9ndsvRGQkDGhlDYh3e	225840	False	0	0.532	0.696	4	-5.133	1	0.0391	0.00827	0	0.192	0.252	116.21	3
+Hiphopopotamus vs. Rhymenoceros	Flight Of The Conchords	34	Flight of the Conchords	6Jrsxe2RAcC3zfx791dk6z	129106	False	1	0.848	0.56	9	-8.666	0	0.346	0.54	6.24e-05	0.724	0.0761	99.856	4
+We Are The People	We Are The People	33	Empire of the Sun	1JqTcOjOn7gEpeC0JcRVPa	272174	False	50	0.671	0.784	4	-5.514	0	0.0303	0.0842	0.0121	0.543	0.231	122.995	4
+Ready For The Floor	Made In The Dark	32	Hot Chip	7lsFHOFeMyWiqaKrESLudT	234240	False	6	0.764	0.759	1	-5.443	0	0.0413	0.00903	0	0.937	0.0746	128.999	4
+Crawl	Only By The Night	31	Kings of Leon	4Cafkn387Mv8IO4M6hyhvQ	246413	False	0	0.334	0.875	4	-3.798	0	0.0751	0.000153	0.000494	0.322	0.413	169.426	4
+One (Blake's Got A New Face)	Vampire Weekend	30	Vampire Weekend	2BrC7TtCJCGoyKm1uS1kZQ	193000	False	44	0.886	0.568	9	-7.841	1	0.0439	0.0375	0.00211	0.753	0.0858	109.983	4
+No One's Gonna Love You	Cease To Begin	29	Band of Horses	3LeNQIGi0zwmQm8WShZB95	217333	False	9	0.313	0.894	1	-3.579	1	0.0294	0.121	0	0.362	0.0925	149.043	4
+Spaceman	Day & Age	28	The Killers	6zbnpAx9RH1W0dS4JEqdpc	284546	False	3	0.526	0.924	4	-4.073	1	0.0536	0.00237	0.0012	0.802	0.129	152.034	4
+I'm Not Gonna Teach Your Boyfriend How To Dance With You	Partie Traumatic	27	Black Kids	6fcZNs8sOkLwMK2NPzfVWC	217733	False	44	0.48	0.929	0	-4.082	1	0.0476	0.000304	0	0.799	0.366	125.321	4
+Half Full Glass Of Wine	Tame Impala	26	Tame Impala	4R3i6bPqzQrOQGUmZNCgOe	266626	False	7	0.679	0.768	0	-7.246	1	0.0787	0.254	0.0401	0.685	0.0916	126.117	4
+Polka	Draw Attention To Themselves	25	Yves Klein Blue	5p8ViA5MJELRWHbdN7TcEG	249707	False	32	0.474	0.899	9	-4.577	1	0.0985	0.00629	0	0.645	0.115	105.991	4
+Falling	Brothers Grimm	24	Drapht	12UWCmtVA67ovsnicQR502	220040	True	0	0.348	0.861	1	-5.456	1	0.498	0.0104	0	0.535	0.204	186.037	4
+Shut Up and Let Me Go	We Started Nothing	23	The Ting Tings	3bu5GJpyHZs8DfPlkKrnnE	171226	False	49	0.852	0.927	7	-4.497	1	0.0581	0.0109	0.00268	0.887	0.054	107.993	4
+Jealousy	Postcards	22	Sparkadia	60I6mK1v7IqDWzD15g66cV	276000	False	0	0.53	0.782	10	-6.468	0	0.0365	0.00335	0.000138	0.475	0.111	128.949	4
+Aw Yeah	Teeth Lost, Hearts Won	21	The Grates	7wqYfcxD8AfFpNzxecNzDl	161653	False	0	0.584	0.904	8	-2.8	1	0.0478	0.00183	0	0.474	0.0743	97.481	4
+Pork And Beans	Weezer (UK Version)	20	Weezer	1iYJ7LzmVg5SMlsA6er8HD	189149	False	0	0.597	0.632	6	-6.615	1	0.0326	0.0116	8.15e-06	0.685	0.155	119.821	4
+Ulysses	Tonight	19	Franz Ferdinand	4HGsQVbIfgjDFG5uogReG0	193160	False	0	0.705	0.619	7	-5.733	1	0.0801	0.00499	0.000157	0.546	0.14	98.653	4
+Carve Your Name	Teeth Lost, Hearts Won	18	The Grates	0tv3nBtKVycvEgxmrtliGo	168493	False	0	0.667	0.899	4	-3.194	1	0.0456	0.0147	0	0.972	0.13	142.909	4
+Re-Education (Through Labor)	Appeal To Reason (International Version)	17	Rise Against	3maL8nLgxrr7cOoTYqGKrS	222453	False	0	0.243	0.947	11	-3.388	1	0.102	0.000421	3.77e-05	0.339	0.132	147.592	4
+1981	1981	16	Gyroscope	0oXqhBlR5ODJLfQPdglaiu	218173	False	12	0.441	0.96	7	-3.882	1	0.0704	0.00977	1.1e-05	0.303	0.124	151.944	4
+Beautiful Ugly (Ft. Jess Harlen)	…and Then Tomorrow Came	15	Muph & Plutonic	78gEczBCFkLCah7lVDrbiS	254120	True	3	0.776	0.814	2	-4.989	1	0.0693	8.06e-05	0.0172	0.603	0.0953	136.057	4
+Another Way to Die	Another Way to Die	14	Jack White, Alicia Keys	5UnqU47OSB8LBahj0jtjrR	262733	False	9	0.541	0.772	7	-3.874	1	0.136	0.0382	8.48e-05	0.43	0.0796	71.201	4
+Love Lockdown	808s & Heartbreak (Softpak)	12	Kanye West	4xMBL6zax57S2EHzI2Vloy	270306	False	5	0.76	0.524	1	-7.67	0	0.0323	0.0542	0.5	0.112	0.112	119.603	4
+Fuck You	It's Not Me, It's You	11	Lily Allen	5st5644IlBmKiiRE73UsoZ	219893	True	63	0.775	0.904	1	-4.08	0	0.0437	0.0271	0.000303	0.84	0.06	130.009	4
+Neopolitan Dreams	Neopolitan Dreams	10	Lisa Mitchell	4Na2lsbM2Mf6UKmjz09gi2	182893	False	39	0.693	0.468	0	-10.368	1	0.0264	0.0334	0	0.386	0.166	113.987	4
+Propane Nightmares	In Silico	9	Pendulum	6tC2iHfUlzB2W4ntXXL2BH	313346	False	57	0.356	0.966	7	-4.13	0	0.0825	0.000262	0.148	0.215	0.192	173.992	4
+Gobbledigook	Með suð í eyrum við spilum endalaust	8	Sigur Rós	55l3ZlpxGMKkVqs41yXChK	186693	False	37	0.528	0.952	2	-6.338	1	0.0698	0.0818	0.311	0.778	0.353	177.366	3
+Woodstock 2008	Flying Colours	7	Bliss n Eso	3I4kCnjGUqnIjko4EjcZzj	267240	True	32	0.663	0.954	1	-4.685	1	0.126	0.0137	0	0.579	0.0913	116.97	4
+Wearing My Rolex - Radio Edit	See Clear Now	6	Wiley	5liQj4sVRmEEESvvcb64o8	170480	False	62	0.876	0.716	1	-6.884	1	0.135	0.0468	0.000482	0.755	0.0667	131.942	4
+Flex (Dave Spoon ReFlex)	Flex	5	Dizzee Rascal	1qdyYimTM7bCtLPpQ0VTHd	388973	False	18	0.753	0.746	10	-3.971	0	0.138	0.00032	0.0304	0.759	0.0248	129.959	4
+Are You Interested	Sharing Space	4	Cog	3J2eAB5SH3yEjrZ9u1BqRh	221040	False	0	0.374	0.976	7	-3.989	0	0.114	0.0156	0	0.405	0.172	188.915	4
+I Like It, I Love It	Everywhere At Once	3	Lyrics Born	7hdos450EBUAjdukKbk573	222680	False	0	0.852	0.766	5	-4.63	1	0.189	0.0508	0	0.882	0.0796	96.997	4
+Don't Worry About Nothin' (Ft. Jess Harlen)	…and Then Tomorrow Came	2	Muph & Plutonic	12DEcn7dIzjV2C49oF6zs4	239933	True	6	0.881	0.801	5	-3.779	1	0.214	0.00523	0.000174	0.614	0.0839	107.464	4
+It's A War - Remastered	Fit	1	Dukes of Windsor	04ta0eYUiBCi5vkcunhRzI	205480	False	0	0.711	0.754	5	-5.849	0	0.0433	0.00574	7.49e-06	0.781	0.315	125.986	4
